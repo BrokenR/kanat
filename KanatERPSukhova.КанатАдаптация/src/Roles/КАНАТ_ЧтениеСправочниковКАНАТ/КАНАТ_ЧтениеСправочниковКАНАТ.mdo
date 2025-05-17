@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cc2efaf-5890-4ad2-bccd-451e778c593e">
+  <name>КАНАТ_ЧтениеСправочниковКАНАТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение справочников(КАНАТ)</value>
+  </synonym>
+</mdclass:Role>

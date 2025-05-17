@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcce96c7-c204-42af-9bd0-b574c4d84c02">
+  <name>КАНАТ_ДобавлениеИзменениеНТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение НТД</value>
+  </synonym>
+</mdclass:Role>

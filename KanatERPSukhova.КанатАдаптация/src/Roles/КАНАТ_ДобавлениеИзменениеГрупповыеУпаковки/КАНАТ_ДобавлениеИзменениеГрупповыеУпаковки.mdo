@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f917febd-38a2-49d9-aa7d-8f6418b11a75">
+  <name>КАНАТ_ДобавлениеИзменениеГрупповыеУпаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение групповые упаковки (КАНАТ)</value>
+  </synonym>
+</mdclass:Role>

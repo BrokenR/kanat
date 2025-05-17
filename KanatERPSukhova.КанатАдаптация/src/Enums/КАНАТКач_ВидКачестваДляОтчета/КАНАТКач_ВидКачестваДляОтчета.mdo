@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6497bdfc-2e30-486d-862c-d47e7daa6761">
+  <producedTypes>
+    <refType typeId="375a08e5-5dc8-4df7-9153-e33bb478d10f" valueTypeId="7a162af2-ca22-4085-9aae-0d01eeea1058"/>
+    <listType typeId="d92b2ef3-f4d1-4d97-961e-156141a2de48" valueTypeId="cb6a3ed0-7731-4495-b03a-d2fc45d9e548"/>
+    <managerType typeId="8636f4d7-3269-47e1-ba4c-9fc1e92277e2" valueTypeId="78b5f2bf-5d77-4bfb-a47d-3f01051a76ef"/>
+  </producedTypes>
+  <name>КАНАТКач_ВидКачестваДляОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАНАТКач вид качества для отчета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b60757e-3064-4f0c-b75c-c7aad504008d">
+    <name>Сетематериалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетематериалы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="626a1dcf-73be-4533-8d96-631efde5c607">
+    <name>ВеревкиСтраховочноСпасательные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веревки страховочно-спасательные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9b1df02-8735-44e0-b400-408b372befda">
+    <name>КанатыДляЛазания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канаты для лазания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3387f42-155b-4101-bd5a-8288a830972c">
+    <name>ПетлиСтраховочныеТермостойкиеАрамидные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Петли страховочные термостойкие арамидные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10f92847-a0a6-4772-9938-734d14a64ca0">
+    <name>СтропыГрузовыеСинтетическиеШнуровыеКольцевые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стропы грузовые синтетические шнуровые кольцевые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ac9b2a8-8e91-4f87-9059-1b0ca0400830">
+    <name>Полуфабрикаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полуфабрикаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe23c419-752e-4da5-bb2a-bd7721f12345">
+    <name>НитиППсЭкструзионнойЛинииSisol</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нити ПП с экструзионной линии ф.Sisol </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6ce23b5-17df-402e-bc5d-f112a08b4992">
+    <name>ПрочаяГотоваяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочая готовая продукция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

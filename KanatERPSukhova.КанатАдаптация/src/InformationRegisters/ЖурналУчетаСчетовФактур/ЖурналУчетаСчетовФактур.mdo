@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6b20c242-42e4-4804-a57f-f5120011d024" extendedConfigurationObject="e3cd2832-710c-4455-b0f1-1225ae1fc53d">
+  <producedTypes>
+    <selectionType typeId="19a8b24c-cb3d-44ca-a0c9-f7320fb3fcfa" valueTypeId="9873d846-ab73-4895-af83-46af0aad62bc"/>
+    <listType typeId="d9b3e491-7081-478b-96a0-a1c7d466fadd" valueTypeId="6655abc9-b6e6-4216-9218-e8913ac098d0"/>
+    <managerType typeId="b0a64ffa-2309-45bd-acf2-d06973b51918" valueTypeId="d937b4de-811d-4d82-a067-682685b53ade"/>
+    <recordSetType typeId="88801ffa-4a4f-4d42-b393-3443f22ab81d" valueTypeId="d8d20798-3037-4507-b8be-b2f74ade46c3"/>
+    <recordKeyType typeId="5543412b-7e47-4db3-9166-053bba67b186" valueTypeId="f8a1eb0b-58be-4d6f-b298-29627d32df4e"/>
+    <recordType typeId="c9eccad0-288b-4467-a687-10b4f8cb1067" valueTypeId="efab7c2d-2aa1-45cf-b5cf-a309890d2478"/>
+    <recordManagerType typeId="3fb1f906-3907-4f12-a27f-ae4d39548b8b" valueTypeId="2bdb5a74-9238-4bc7-a298-abaeb68d1f05"/>
+  </producedTypes>
+  <name>ЖурналУчетаСчетовФактур</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="19363b52-19c7-4477-9d8c-60519d78565c" extendedConfigurationObject="133cf3c5-93e5-45ed-a5c8-59b2d3fd085f">
+    <name>СуммаПоСчетуФактуре</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="18cbd4de-992c-435c-9343-c4988ab36a16" extendedConfigurationObject="291eb09f-d631-45b6-9ac3-31304a170c5d">
+    <name>СчетФактура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

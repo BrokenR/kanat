@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93f4b44e-13e7-41b3-a5c3-0c71622d4a13">
+  <name>КАНАТ_ЧтениеОсновнойБанковскийСчетОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение основной банковский счет организации</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="10305b71-a34c-40be-9275-90cc7a9441fc" extendedConfigurationObject="f6ecc26c-bdc7-4d8e-81ef-5bbffd7ce8cf">
+  <producedTypes>
+    <objectType typeId="3045b525-8775-4792-ad66-9e79b7350d08" valueTypeId="f314a6e5-80ef-4892-9fa1-fbde6018e488"/>
+    <refType typeId="715fc496-af92-4d49-94ac-1b87467e1991" valueTypeId="3e22bdb4-0b31-4292-bc5d-5d230c0c7578"/>
+    <selectionType typeId="71f5f6e1-e17f-4cde-8ce7-b367908e56a6" valueTypeId="2262a16d-5247-469a-9a85-0514554350df"/>
+    <listType typeId="71db1644-0d2e-455f-af02-283483098f66" valueTypeId="7f920684-740a-475f-b083-8ed511a6ee8c"/>
+    <managerType typeId="ba7b08bb-721e-4860-aafb-8c4003630ecc" valueTypeId="53efedb5-678a-43b7-84c0-02c53f6cd5fd"/>
+  </producedTypes>
+  <name>ШаблоныЭтикетокИЦенников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="9ec4cde2-2c8c-4926-b1da-c0b1276478a4" extendedConfigurationObject="13a442c1-4164-4452-862b-8f8010ac9628">
+    <name>ФормаРедактированияШаблонаЭтикетокИЦенников</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

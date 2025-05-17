@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32d235b1-6263-4c5b-999d-efad00dfa340">
+  <name>КАНАТ_ЧтениеСпецификацияКДоговору</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАНАТ чтение спецификация к договору</value>
+  </synonym>
+</mdclass:Role>

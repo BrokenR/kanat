@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="03418a37-6ac6-4fee-8d7a-cbe2138b1328" extendedConfigurationObject="1b8b67c9-d102-4098-9ab2-841322b60f6e">
+  <producedTypes>
+    <objectType typeId="c8c6c0c8-8283-4638-a4ed-eae2dc8c9e0e" valueTypeId="cf208bd5-196b-43c1-9751-908ce6ea1663"/>
+    <refType typeId="4a086f09-b3cb-4d64-89a5-6248649e1a9c" valueTypeId="11583e2a-2705-49cc-b472-cf91c1cebbb3"/>
+    <selectionType typeId="fff64517-5306-4e6f-8949-6b645b203457" valueTypeId="73077b90-93b4-4e7a-abca-606a873302cb"/>
+    <listType typeId="68cac827-8b25-4438-beba-80d69e26e3b8" valueTypeId="199ffecc-89c2-4bc4-b49c-160a3e5592cb"/>
+    <managerType typeId="3655537c-874a-4bb5-8897-8d1d0f0fa7cc" valueTypeId="75c0228b-a682-4bd0-a8c0-4fe957447ac4"/>
+  </producedTypes>
+  <name>КоммерческоеПредложениеКлиенту</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="ead444bc-f880-4026-8e6d-1be59f87d587">
+    <name>КАНАТ_НеИспользуетсяВГОЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не используется в ГОЗ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aac383fa-a74e-463d-b0cf-5352301bc38b">
+    <name>КАНАТ_ИнформацияДляПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>КАНАТ информация для покупателя</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="26bd6f82-7fab-4778-9991-9dec1f7e5a4f" extendedConfigurationObject="6b43a713-3abc-4609-b9a8-e85fd984e6bc">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="ef94c77e-ac7d-4384-9654-53d123b90ed6">
+    <name>ПФ_MXL_КАНАТ_КоммерческоеПредложениеКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммерческое предложение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sales quotation</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

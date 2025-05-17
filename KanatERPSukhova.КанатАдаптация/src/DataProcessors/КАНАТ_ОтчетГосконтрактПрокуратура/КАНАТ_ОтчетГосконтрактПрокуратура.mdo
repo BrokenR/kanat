@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0454f39-d8bb-41f2-8a61-d985b28a1ca6">
+  <producedTypes>
+    <objectType typeId="507b3404-6cfc-4493-b522-f2ede6cf8700" valueTypeId="17ea40fb-c321-4f23-98d9-2d789d506fc6"/>
+    <managerType typeId="f9289874-257b-4960-a47e-db30e2216873" valueTypeId="3734700d-eafd-4f1b-a707-5ba382abda79"/>
+  </producedTypes>
+  <name>КАНАТ_ОтчетГосконтрактПрокуратура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет для прокуратуры по госконтрактам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТ_ОтчетГосконтрактПрокуратура.Form.Форма</defaultForm>
+  <forms uuid="be02a011-bf89-4f79-9702-37f84f94455c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="57a0cb06-db8f-456c-903a-0b3482d7c7dc">
+    <name>КАНАТ_ПФ_МакетГосконтрактПрокуратура</name>
+    <synonym>
+      <key>ru</key>
+      <value>КАНАТ п ф макет госконтракт прокуратура</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

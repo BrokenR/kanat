@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="676bd302-4dd3-4c65-ba1d-6f33c6d3db6f">
+  <producedTypes>
+    <selectionType typeId="d96f5ed5-816b-471d-bd88-9d319e43ab48" valueTypeId="f901d2dc-1161-4318-8aba-e421ddce73ea"/>
+    <listType typeId="b47a4f4c-ba9e-4071-b30a-45955ba28619" valueTypeId="2653d789-f150-43c0-8bb8-5a72b453fba9"/>
+    <managerType typeId="8acc339c-5d25-4139-a937-424b5a31cb94" valueTypeId="f1ba542d-6b99-458a-a765-4aee65f570d5"/>
+    <recordSetType typeId="a9baa5c6-2530-43a0-b24d-d92ab86fd69e" valueTypeId="aac01d39-c89a-4694-97b8-998c76c9c659"/>
+    <recordKeyType typeId="7d6e6fea-79a9-4888-a442-1a47b6d1dbb7" valueTypeId="44cd4778-7a76-456c-a566-96db7c1a4f7e"/>
+    <recordType typeId="057621c7-5d61-4f15-8fcf-516ab82a0b9c" valueTypeId="ca075c5d-836c-4fc3-bf41-e81c02997459"/>
+    <recordManagerType typeId="669764fa-1597-4b36-9214-8eddb34ffc83" valueTypeId="78f7130c-8023-4f89-84c2-47971687b637"/>
+  </producedTypes>
+  <name>КАНАТКач_СоответствиеПоказателейНТДКолонкамОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие показателей НТД колонкам отчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2ce43d11-970d-47af-87f8-471781fdaaaf">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАНАТ_НТДПоказатели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f464475a-a51f-4e73-8ad8-8267dfc143d8">
+    <name>ВидДляОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид для отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КАНАТКач_ВидКачестваДляОтчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="367db768-f701-4f61-977f-159429492ab7">
+    <name>ПараметрОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр отчетов</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КАНАТКач_ПараметрыОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

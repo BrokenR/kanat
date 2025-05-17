@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5b9f3e70-387e-4d2b-8862-cc407bb91e8e" extendedConfigurationObject="9eab2298-ca44-4cc2-a529-95431e0e3800">
+  <producedTypes>
+    <objectType typeId="cfc65cf0-f47b-4c4c-9fca-9912edb23500" valueTypeId="457ad8e0-f3d3-43a6-9fe9-ec0b6debadc0"/>
+    <refType typeId="93a0872e-18bf-4ebc-9707-41b12ebeb0a6" valueTypeId="5bb89a80-4c86-4145-bdac-529b9299c3a1"/>
+    <selectionType typeId="b2af8f0e-13e0-42d1-9329-b7d6320bc3ff" valueTypeId="ffa151cc-1665-4875-a32b-2d8581ef9015"/>
+    <listType typeId="a10b7301-2d14-4a51-b24c-cc18482df05c" valueTypeId="531bce70-2ac6-4612-84e8-24a5fa169979"/>
+    <managerType typeId="1aad1868-54d2-4c68-a4ac-7a9b9697e8db" valueTypeId="8c28bf79-17e9-44d8-a018-04b5790e2f74"/>
+  </producedTypes>
+  <name>СчетФактураВыданный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="537d4cae-139c-4456-aed6-427b28b32519" extendedConfigurationObject="861dd4a6-11fe-4e8a-94aa-230cc1037aa1">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="048f1117-9cdf-4caf-8909-1d5415b50af9" extendedConfigurationObject="f5ebb45d-36cc-4d4e-aaae-5effa624ce42">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="7ed507e9-fa68-4d3a-86fb-a78227ee6567" extendedConfigurationObject="fd65fde8-b84e-417c-a0f6-6d991416b565">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеСчетФактураВыданный</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="1cedaa06-1d8d-4e6f-9914-cc7de8cf6d52" extendedConfigurationObject="a96d4ac2-d10a-4fee-87a1-589480786aff">
+    <producedTypes>
+      <objectType typeId="eb817e75-0f51-41a4-ae3b-03d2afdea536" valueTypeId="93252024-ce1b-45b7-9e77-1479c127e72f"/>
+      <rowType typeId="33d24c44-f01f-4f5f-b386-df42d0313464" valueTypeId="5dd45cde-602d-43f9-952b-bf8eea718943"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="28f518ce-820b-4e42-9b67-5b8446ba19eb" extendedConfigurationObject="8a622e4b-561c-49a4-97dd-da5615b0c95f">
+      <name>Сумма</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e3fa9b11-989a-47c0-8aa1-4cfda947edac" extendedConfigurationObject="50371f97-7440-48ec-8481-2c7e9c812287">
+    <producedTypes>
+      <objectType typeId="d6a8258d-9f94-4f2d-bc75-9acfde7d42a1" valueTypeId="91363b9a-86df-4b2e-891c-bec55f3f8408"/>
+      <rowType typeId="bdf6e539-78dc-4f21-a2f3-054deae77f49" valueTypeId="db782f39-8382-4219-b1e2-fea2eed8a283"/>
+    </producedTypes>
+    <name>ПлатежноРасчетныеДокументы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="69c039b8-a2ea-46ed-9c03-151d89bc2af9" extendedConfigurationObject="043d3fd2-2de7-4440-9727-ac6351b61a5e">
+      <name>НомерПлатежноРасчетногоДокумента</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>30</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="062c4768-105a-4bc9-a450-5f62c598ebbc" extendedConfigurationObject="7b0e9642-7b63-4ca0-b12e-34bdd79511b9">
+      <name>ДатаПлатежноРасчетногоДокумента</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

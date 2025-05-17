@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d983f34a-029b-4975-910f-3c2ca43231d1">
+  <producedTypes>
+    <objectType typeId="a95b672d-6860-446b-b5d5-4efa1c4be030" valueTypeId="db5e5ae8-a2a3-4b2d-8378-11262f7928ae"/>
+    <managerType typeId="f7293ae4-a7b9-4c22-88a7-214abd2136c5" valueTypeId="a8c0c8e5-4c34-419c-abce-4248404751b7"/>
+  </producedTypes>
+  <name>КАНАТКач_ГодовойКвартальныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Годовой/квартальный отчет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ГодовойКвартальныйОтчет.Form.Форма</defaultForm>
+  <forms uuid="8972afb2-e901-4444-896b-0832731823bf">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b43472a5-8944-40f5-8b25-456b3a7182bf">
+    <name>ПФ_MXL_ГодовойКвартальныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL годовой квартальный отчет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

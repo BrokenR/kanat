@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="90981f89-32bf-4fd8-ae25-772885e7582e" extendedConfigurationObject="8cd09e10-4636-4941-882a-e1d11a583f37">
+  <producedTypes>
+    <refType typeId="207ca476-b019-4340-962e-f308b468a95b" valueTypeId="4ccac498-832c-4a1d-a60a-0eaec36ee2ff"/>
+    <listType typeId="cb10ddd7-3f9f-44da-a8c4-ee9c6d1f5d67" valueTypeId="b5c6684b-531d-48a7-a25b-514d364838a7"/>
+    <managerType typeId="33d24577-59f9-4588-8b86-452c3790fec7" valueTypeId="419e8464-c3b2-4a4f-97bd-f5832d438e00"/>
+  </producedTypes>
+  <name>ФормыОплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="80fc7575-7dc0-41c3-982e-e7c3d5448576" extendedConfigurationObject="d450cea1-6bc0-427b-b3f6-68344c8dba57">
+    <name>Наличная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="bd7fc104-e083-45b9-ac07-eabd3f59230d" extendedConfigurationObject="4cebd4c2-9bdf-4aab-a86b-564c5df1185e">
+    <name>ПлатежнаяКарта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="788a5746-d859-4a63-b2bf-eac1df50b187" extendedConfigurationObject="d1e84b1a-e266-4a41-b553-0d030e40bc26">
+    <name>Безналичная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

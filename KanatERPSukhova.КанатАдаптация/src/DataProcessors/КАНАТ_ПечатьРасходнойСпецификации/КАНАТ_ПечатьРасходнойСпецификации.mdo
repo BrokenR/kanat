@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b260a30-7eab-42f0-b534-acee4c9c169b">
+  <producedTypes>
+    <objectType typeId="21f9c733-2955-4073-86ea-ea4090f18929" valueTypeId="2c2e2f30-ea7f-4181-a5b7-36fd64b84c8b"/>
+    <managerType typeId="43632191-69f9-419f-83e7-dc168f8f9b14" valueTypeId="339b2fea-f6a6-4b61-a9c4-3ee081dd2a68"/>
+  </producedTypes>
+  <name>КАНАТ_ПечатьРасходнойСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать расходной спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="0fcb87f2-55fc-43f7-bb66-2a0cb345d592">
+    <name>ПФ_MXL_ПечатьРасходнойСпецификакии</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL печать расходной спецификакии</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

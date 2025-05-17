@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e758b6ae-d358-4134-953e-241148cc968f" extendedConfigurationObject="02099b91-35d0-4f06-b7c0-499f14322775">
+  <producedTypes>
+    <objectType typeId="99af11d2-ea61-4e1d-95e5-fe52bc8b7790" valueTypeId="5d13258c-0730-4876-9fd8-f9a01ef81af9"/>
+    <refType typeId="171edce5-97a4-4211-98d7-e931e3b3a81c" valueTypeId="155de7ea-f98f-46ce-8108-83a78e8e3b90"/>
+    <selectionType typeId="e8ffb1f3-6a00-44f2-91a3-9914b335cfb6" valueTypeId="391f23ce-fd3e-4aaf-958b-73ba42dec08e"/>
+    <listType typeId="43f4d584-2620-4f71-a00a-24904b281d04" valueTypeId="79e635a6-cc80-4e23-9214-990caafbd33b"/>
+    <managerType typeId="485118b9-bb32-40bf-a727-c185f7494cd5" valueTypeId="e7341e6c-12d7-4ded-ba9b-c28ff76acda0"/>
+  </producedTypes>
+  <name>ТранспортныеСредства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="2261aa6c-edf5-4f9d-9f3e-32b1b945e895" extendedConfigurationObject="a98e1dad-f67e-427d-b4c0-75823355a91a">
+    <name>Марка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

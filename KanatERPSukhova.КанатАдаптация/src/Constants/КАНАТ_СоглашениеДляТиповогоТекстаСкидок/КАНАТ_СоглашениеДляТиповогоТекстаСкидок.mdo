@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33f654fd-3271-4620-a30d-0f7ca918f1de">
+  <producedTypes>
+    <managerType typeId="4d7f1184-1df4-4761-8bd8-2458e0692aea" valueTypeId="49ec1001-c391-428d-8145-aea17a95adb2"/>
+    <valueManagerType typeId="c2fbdcab-8f73-4ab3-bf06-24930a503caa" valueTypeId="fe566011-22af-4e57-b1a5-49aace1304d3"/>
+    <valueKeyType typeId="972f38cc-8c33-4877-aa83-bb0f59464525" valueTypeId="dbb87c48-80bf-4c00-9694-6d0d943cab5b"/>
+  </producedTypes>
+  <name>КАНАТ_СоглашениеДляТиповогоТекстаСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соглашение для типового текста скидок</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СоглашенияСКлиентами</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.Типовое</name>
+    <value xsi:type="core:BooleanValue">
+      <value>true</value>
+    </value>
+  </choiceParameters>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

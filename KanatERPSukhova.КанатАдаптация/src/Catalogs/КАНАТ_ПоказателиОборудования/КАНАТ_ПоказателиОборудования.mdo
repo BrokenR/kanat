@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d6bef19-8dfb-4982-b16c-6c59cecdc3dc">
+  <producedTypes>
+    <objectType typeId="74580a58-6164-495f-9acc-a98ad7b3f0fd" valueTypeId="93f7f0ef-d281-4754-af41-e1085ecd61ac"/>
+    <refType typeId="524f912a-49ed-4658-b947-5deff9d7bc83" valueTypeId="824f8f4f-fadb-460d-893b-567fa0c311f0"/>
+    <selectionType typeId="91526fcb-496a-46b6-8fa2-fc5a79bde67f" valueTypeId="bd36514b-90fe-429d-9cec-46a676c1386d"/>
+    <listType typeId="b9ed7104-4865-434e-bf94-663503c405bf" valueTypeId="213ca5ea-796f-4095-a7b3-4bcda64e8645"/>
+    <managerType typeId="d1c2a11e-96ce-4731-8c76-29dae24054e0" valueTypeId="2f3fbff0-5b2e-4b50-a96b-4cb926c8b2a6"/>
+  </producedTypes>
+  <name>КАНАТ_ПоказателиОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели оборудования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАНАТ_ПоказателиОборудования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАНАТ_ПоказателиОборудования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="23df307c-eb26-40ac-9db3-9ac68c121c08">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

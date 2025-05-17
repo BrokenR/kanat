@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37cb448d-2207-4b85-84f6-436ccc9e4462">
+  <name>КАНАТ_АдминистраторНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор НСИ (КАНАТ)</value>
+  </synonym>
+</mdclass:Role>

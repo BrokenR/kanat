@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f41b2a2b-e600-4db1-8e27-aa8774828389" extendedConfigurationObject="f3b86010-6dc9-4bd6-9fda-850ce2f2ea58">
+  <producedTypes>
+    <objectType typeId="969329af-e2b5-4e59-b39f-c58c1132eb2d" valueTypeId="b3f31cab-ac8f-4c3c-b1a7-761e92530b65"/>
+    <refType typeId="56c9b6de-9d77-4947-b562-50429f4ea57d" valueTypeId="f1eb08df-8e94-401f-b8cd-b4275c437891"/>
+    <selectionType typeId="561e9442-8033-4aac-b2a7-6268ddd74633" valueTypeId="9a9bb808-b36f-4f24-a5d1-95394c47ff03"/>
+    <listType typeId="4a8fc783-d131-4e10-a9f9-ff0f6d404266" valueTypeId="7b26262e-4e57-4514-87f1-b5242a03b7a6"/>
+    <managerType typeId="289d337f-6e30-48ab-afb2-97c2f231538c" valueTypeId="78828805-fd73-47be-8138-9710f8213a24"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="152e1b6b-aaf0-4be8-9032-bfc8d35177c8">
+    <name>Канат_ЗапретНаОтгрузкуЧастями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет отгружать серию частично</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5d59df16-029a-4d86-a3fd-ce9385921a94" extendedConfigurationObject="3570e706-5816-4250-a16d-424e0fcd87d7">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

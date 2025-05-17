@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97e035f9-9bd5-46bd-9b2e-f87735e3811c">
+  <producedTypes>
+    <refType typeId="d34c128a-5baf-4789-bc6b-998555832b65" valueTypeId="57666128-013f-4fcb-ada1-cd72098ef38a"/>
+    <listType typeId="ef50da55-f52e-43db-aaab-f52eeff414ce" valueTypeId="6fd0463d-14e4-4d9d-9e0f-a8136bbb5b78"/>
+    <managerType typeId="6022ffa1-2138-4ee4-8af6-72a987e19995" valueTypeId="33f6f756-bbf0-4d3a-8df8-eaa7c15af9f3"/>
+  </producedTypes>
+  <name>КАНАТ_ПлатитЗаДоставку</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАНАТ платит за доставку</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f4a6331-46c6-4c84-808a-f59953e6a3c0">
+    <name>ПлатитАОКанат</name>
+    <synonym>
+      <key>ru</key>
+      <value>АО &quot;Канат&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95f5bd09-9aee-43d2-af62-d4d671712d72">
+    <name>ПлатитГрузополучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузополучатель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c89b30c-e615-4921-bc78-e6315cb38f76">
+    <name>ПлатитПлательщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупатель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

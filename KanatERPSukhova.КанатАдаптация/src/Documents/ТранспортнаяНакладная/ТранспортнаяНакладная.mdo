@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a290c5a5-a7f4-49bf-921d-71830c45ce55" extendedConfigurationObject="22163f5e-b24b-429b-a671-2b293a8a2f80">
+  <producedTypes>
+    <objectType typeId="56e384b9-6f9b-44b3-99b8-bc770e0b9692" valueTypeId="7633c8a7-8a35-4034-bc6c-46dc0a854a88"/>
+    <refType typeId="c34704bc-ee5b-44f8-90a9-9987964d23f6" valueTypeId="968bea92-56e0-4f35-9a56-dededcfffb83"/>
+    <selectionType typeId="397a0122-b6ee-41b7-ad93-70ddbc3b154b" valueTypeId="3866054f-ea1c-4b6e-91f9-87aba2898fe0"/>
+    <listType typeId="6ee29980-c439-4f3f-ba78-728656a3886a" valueTypeId="db40f36a-1ca7-47d9-a211-118b31feb5e6"/>
+    <managerType typeId="8a266ec9-be1e-43ac-a92b-fdd52b240b02" valueTypeId="f7a0b50c-0dac-42d9-a66e-8188fc8a7130"/>
+  </producedTypes>
+  <name>ТранспортнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="927ca8ea-1a2d-45fd-989d-ea9470fa1f08">
+    <name>КАНАТ_ФИОСопроводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>КАНАТ ФИОСопроводителя</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e78f277e-2e42-41ed-883e-12e18d2e2f4e" extendedConfigurationObject="6e7703a7-39ac-48c5-981c-3ec9e8a4d7a0">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad91cd3e-79db-4794-b286-397cb2efa979">
+  <producedTypes>
+    <objectType typeId="d40c32a9-062c-4495-b97a-7ad632fb23c6" valueTypeId="8841945c-152f-42d8-8eda-2ceb28701e90"/>
+    <managerType typeId="d4702dac-70e1-40b9-9666-ca640d937a4d" valueTypeId="ea8db4bb-b240-4e5e-9b16-0390edb3a9bf"/>
+  </producedTypes>
+  <name>КАНАТКач_ОтчетКанатыДляЛазания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет канаты для лазания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ОтчетКанатыДляЛазания.Form.Форма</defaultForm>
+  <forms uuid="edc0d94d-b8de-4c2e-9565-5112fde2caf7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="21a9edb6-d1cf-4cb9-8122-0c6dd281e43f">
+    <name>ПФ_MXL_ОтчетКанатыДляЛазания</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет канаты для лазания</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

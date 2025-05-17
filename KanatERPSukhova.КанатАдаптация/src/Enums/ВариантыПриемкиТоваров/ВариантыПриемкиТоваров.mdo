@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5bda13a8-6f1a-4105-b80a-0d7fd7022d8e" extendedConfigurationObject="4ac76022-5cb3-45b4-bcb8-f601c15cee32">
+  <producedTypes>
+    <refType typeId="3f54b64a-9eb2-4919-a96e-efdd7265490d" valueTypeId="5545e0f2-50f0-444d-acfc-e97e16340b3d"/>
+    <listType typeId="c06aaf68-565d-41dd-89f6-16b47ab7384c" valueTypeId="b1430513-714e-4789-92b6-4991ce0c2cdb"/>
+    <managerType typeId="ec83598d-e616-42b9-a817-f2f28fd7a448" valueTypeId="298f4317-4f69-4342-8a7d-d6a4650881d6"/>
+  </producedTypes>
+  <name>ВариантыПриемкиТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="b2b6d0a2-c7fb-41f1-a8b8-85304b9d1aec" extendedConfigurationObject="0b878554-7a73-4ff3-b553-ce461e6a2d76">
+    <name>РазделенаПоЗаказамИНакладным</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

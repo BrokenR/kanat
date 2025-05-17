@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9039fc2b-acac-4462-989c-4143785991e7">
+  <producedTypes>
+    <objectType typeId="c92c2de8-d1c6-462e-bb7d-29026a642b2e" valueTypeId="90ae655a-c4f1-49d9-bbd4-98ec506aaa1b"/>
+    <refType typeId="c697a170-2580-44ae-a42b-43211223720d" valueTypeId="eb6d14b3-b871-4294-9cdb-f0b1247a2125"/>
+    <selectionType typeId="9caf32d2-2712-4e26-83cd-1830d453693e" valueTypeId="a4d5067a-15f1-4b8f-97bb-f82e8d0fda2f"/>
+    <listType typeId="a85f56bb-ce2a-4dae-a5e4-3b50aaac83b0" valueTypeId="0c19c4b8-176a-4479-ad7c-7ae8fd0fdc94"/>
+    <managerType typeId="60dce313-16fe-4a86-b301-3946a99228bf" valueTypeId="62569253-7693-4eee-9b7a-fa0e9e6c5ef8"/>
+  </producedTypes>
+  <name>КАНАТ_НТДСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>НТД Сырья</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАНАТ_НТДСырья.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАНАТ_НТДСырья.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

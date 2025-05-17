@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b0f5034b-340a-45d6-b424-932f2e96fd9d" extendedConfigurationObject="7b527a79-cee4-4b57-b9e4-490abdcf60d4">
+  <producedTypes>
+    <objectType typeId="86c30fd4-d94d-4368-b67c-54088eb48366" valueTypeId="413562e2-1f9a-4184-b876-d986cdcd3a60"/>
+    <refType typeId="21102044-a107-4280-9c3b-37117eb190e5" valueTypeId="cb2b5f34-abbe-429d-844b-df4e64314b1a"/>
+    <selectionType typeId="0763b228-f748-455d-865a-c0e515159864" valueTypeId="156ed366-3e50-4291-b0c9-30430ac50761"/>
+    <listType typeId="a724caa6-bf72-48b1-a67f-c13113b0f8b1" valueTypeId="b555f0cf-649e-4ee0-96b6-b9882266c03d"/>
+    <managerType typeId="55fdf717-86d8-4d30-9a1d-0340d47b55ae" valueTypeId="6197577d-3c03-4fda-85d1-c23d59c6fe92"/>
+  </producedTypes>
+  <name>ТехнологическиеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="1d453257-5ab1-4e8e-a8bf-e57ab1427768">
+    <name>КАНАТ_Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="044c9749-6ac2-4ce2-b78d-ebf442b401ef">
+    <name>КАНАТ_ЗаправочныеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заправочные параметры</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d60ffa41-b4d5-46bf-b0b2-6688cf29a270">
+    <producedTypes>
+      <objectType typeId="0ba89bf8-0d04-4984-a367-4bf4737cff57" valueTypeId="13ddd10b-d795-41fb-909a-a2c9529e3ff1"/>
+      <rowType typeId="ebe3c452-c45e-42f0-aa26-0fb39345d138" valueTypeId="bf59103b-6f94-4361-a488-bafb7b330893"/>
+    </producedTypes>
+    <name>КАНАТ_Показатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <attributes uuid="8b8a11e0-10b5-4f57-8653-04ae45058451">
+      <name>Показатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.КАНАТ_ПоказателиОборудования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="97efa7ad-a70c-471e-bd48-ea066a04d374">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8d32ca73-2088-4b0b-af0d-c0706166e846" extendedConfigurationObject="7e955705-8677-406f-b1e2-ac5d47a8c00f">
+    <name>ФормаОперации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

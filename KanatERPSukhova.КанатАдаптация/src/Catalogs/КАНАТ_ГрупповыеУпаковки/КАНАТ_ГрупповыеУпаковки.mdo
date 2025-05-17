@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08d8aee9-d81a-43e6-973c-4f1c5d93ade4">
+  <producedTypes>
+    <objectType typeId="cd3dd512-b980-4f4f-9abc-1c776683a736" valueTypeId="e2392b33-3358-4bd7-9b78-8cd3b48a89c6"/>
+    <refType typeId="4e09dc5a-c8b6-4d06-9832-f8081df1822a" valueTypeId="f23b8144-2399-4880-9a57-4d100c8c79fe"/>
+    <selectionType typeId="0e629e96-06b3-4020-8623-430e47d161e2" valueTypeId="7e6d5c30-0894-4c71-9335-f4744bab9dc2"/>
+    <listType typeId="51dc3235-a84d-40a1-9e5d-99c969294e82" valueTypeId="f5c52041-8906-4cd9-a6e2-37bc1d03c2b1"/>
+    <managerType typeId="2ee5af7f-e47a-45c6-81a4-da45ca549d2e" valueTypeId="e57059b8-46e7-4932-a385-f2bd27ff0c3b"/>
+  </producedTypes>
+  <name>КАНАТ_ГрупповыеУпаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповые упаковки (КАНАТ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАНАТ_ГрупповыеУпаковки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КАНАТ_ГрупповыеУпаковки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КАНАТ_ГрупповыеУпаковки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="57859862-66b8-4b03-a4c5-85da1d4df010">
+    <name>ВесБрутто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес брутто</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a7b0007-1164-4c3d-9be2-4a16be900bd8">
+    <name>Поддон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поддон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАНАТ_Поддон</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b5a44c1a-1e20-4674-ab99-b8e7f8ca69e8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

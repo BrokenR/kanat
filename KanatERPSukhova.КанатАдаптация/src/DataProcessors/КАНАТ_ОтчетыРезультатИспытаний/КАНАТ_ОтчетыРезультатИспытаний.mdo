@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03412547-9ce2-4039-83a7-5aa9625d53b4">
+  <producedTypes>
+    <objectType typeId="9b38e0ca-712b-485c-b46a-8834bd83922d" valueTypeId="50abd468-c681-4ee0-b1e8-f30c4df1c914"/>
+    <managerType typeId="a037da94-767e-4d7b-a8a6-8c06faa0c9dc" valueTypeId="9f1f8331-d443-4dc6-9a0e-9c3d9040c116"/>
+  </producedTypes>
+  <name>КАНАТ_ОтчетыРезультатИспытаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАНАТ отчеты результат испытаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТ_ОтчетыРезультатИспытаний.Form.Форма</defaultForm>
+  <forms uuid="fb2ef00e-bc5e-4ebe-b4b1-10e34c8ff5cf">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3b7d6d79-74f8-4f3e-9d5d-3ad0d5c5cb8d">
+    <name>ПФ_MXL_ОтчетПоИспытаниямГотовойПродукцииОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет по испытаниям готовой продукции общий</value>
+    </synonym>
+  </templates>
+  <templates uuid="cb3a6851-6092-48af-b110-5ce7b51c51c2">
+    <name>ПФ_MXL_ОтчетПоИспытаниямГотовойПродукцииЦех</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет по испытаниям готовой продукции цех</value>
+    </synonym>
+  </templates>
+  <templates uuid="800e1d43-dedc-492f-8b6a-ddb793082bba">
+    <name>ПФ_MXL_ОтчетКанатыДляЛазания</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет канаты для лазания</value>
+    </synonym>
+  </templates>
+  <templates uuid="80917309-21e7-49b4-b56c-09d0c7798d02">
+    <name>ПФ_MXL_ОтчетПетлиСтраховочныеАрамидные</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет петли страховочные арамидные</value>
+    </synonym>
+  </templates>
+  <templates uuid="93efa2d3-dd9d-4c99-8c3b-7fb5a7b00d27">
+    <name>ПФ_MXL_ОтчетСтропы</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет стропы</value>
+    </synonym>
+  </templates>
+  <templates uuid="930f6502-477e-481e-8095-3327b759d6da">
+    <name>ПФ_MXL_ОтчетПолуфабрикаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет полуфабрикаты</value>
+    </synonym>
+  </templates>
+  <templates uuid="8812329c-6e17-4546-9090-2315b7ae136c">
+    <name>ПФ_MXL_ОтчетНитиSisol</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет нити sisol</value>
+    </synonym>
+  </templates>
+  <templates uuid="0d583ee4-6950-44b9-ac87-7848f62e5886">
+    <name>ПФ_MXL_ОтчетПоИспытаниямГотовойПродукцииСДатой</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет по испытаниям готовой продукции с датой</value>
+    </synonym>
+  </templates>
+  <templates uuid="1db537c4-78cc-4b5e-8c16-d2cbc9a5bb6f">
+    <name>ПФ_MXL_ОтчетНитиSisolСДатами</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет нити sisol с датами</value>
+    </synonym>
+  </templates>
+  <templates uuid="7301a770-6138-4037-ad58-7bd2d4d38c42">
+    <name>ПФ_MXL_ОтчетСетематериалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет сетематериалы</value>
+    </synonym>
+  </templates>
+  <templates uuid="13c6cfae-7de5-4e07-91f7-09572bfd7ecf">
+    <name>ПФ_MXL_ОтчетВеревкиСтраховочноСпасательные</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет веревки страховочно спасательные</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

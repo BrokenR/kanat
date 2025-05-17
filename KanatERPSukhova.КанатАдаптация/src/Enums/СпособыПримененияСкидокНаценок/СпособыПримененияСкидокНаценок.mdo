@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="36100358-351b-47e9-ace1-9fb2d31e5241" extendedConfigurationObject="287cc55c-7e32-4afc-b4bc-14e6e849af7f">
+  <producedTypes>
+    <refType typeId="44330901-b97f-40e8-b4cc-460ceb4814e3" valueTypeId="359a19c2-a286-45f6-b53b-085ec15878a1"/>
+    <listType typeId="040c6b75-35da-417f-be83-b2ed8d23d131" valueTypeId="3d89c4da-3d4f-44b0-8bea-7d389868922d"/>
+    <managerType typeId="0bceecdb-c348-4ba0-978d-071b2a6edc34" valueTypeId="a1b626c6-059e-4470-a2d4-084c2cf43c96"/>
+  </producedTypes>
+  <name>СпособыПримененияСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="284104c3-f1b6-4871-bc5f-9107d9b25370" extendedConfigurationObject="46f0e734-861d-483a-8597-254034ec1d82">
+    <name>НачислитьБонусныеБаллы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3f7a77aa-c311-4760-b3a5-4220232e3b68" extendedConfigurationObject="f1cd8042-9a64-403d-ab51-4439f725b0fa">
+    <name>ПрименитьВМоментРасчетаСкидокНаценок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

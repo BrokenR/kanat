@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53fc730a-04de-4d20-97a6-3fc4efccc1f1">
+  <name>КАНАТ_ДобавлениеИзменениеИспытанияКачества</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАНАТ добавление изменение испытания качества</value>
+  </synonym>
+</mdclass:Role>

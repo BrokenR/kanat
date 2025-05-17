@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b7645dc-a0a6-4edf-9f92-3cc6ec0cbaf3">
+  <producedTypes>
+    <objectType typeId="3ed4d0ac-fc7c-4f6b-8661-250b372ab114" valueTypeId="ae80a274-2cb0-418d-bc52-eed42901e051"/>
+    <managerType typeId="4dc2e3aa-e8a4-40aa-857f-81bee55a0340" valueTypeId="91e6fdb3-fa12-4b75-862a-17d004b47e8e"/>
+  </producedTypes>
+  <name>КАНАТ_ПечатьПрайсЛиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать прайс-листа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТ_ПечатьПрайсЛиста.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="5019032a-7d31-4dbc-958e-83e122891b79">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="61d7088b-612a-4b15-867d-9ba7d02d4c4d">
+    <name>МакетПечатиПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет печати прайс листа</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

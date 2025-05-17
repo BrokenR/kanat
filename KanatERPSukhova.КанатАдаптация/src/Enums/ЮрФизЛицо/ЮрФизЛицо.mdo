@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c9b17fd4-6e8f-42c4-b2f4-b8871e5b8fc7" extendedConfigurationObject="e9878089-011c-4608-902f-a358fcc73d96">
+  <producedTypes>
+    <refType typeId="4c92a366-b2b4-41cc-9c87-1846dd7d2966" valueTypeId="b034d745-4aa1-436f-b10c-7e7c94e34006"/>
+    <listType typeId="3b03dccb-2bc9-4b99-a727-853bd10dfa9b" valueTypeId="1610823a-8d51-4638-9593-2a147bff54c9"/>
+    <managerType typeId="3f74a32b-6fd4-4633-a86e-f3e4af8ad7a7" valueTypeId="5079db1e-5b11-4c20-a1dd-4819add22444"/>
+  </producedTypes>
+  <name>ЮрФизЛицо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="d19d2f04-0c63-490b-9992-0b5844795046" extendedConfigurationObject="e3ea3f3b-568c-408a-bb78-fa4a49f84317">
+    <name>ФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="68824409-d15f-449a-9495-59f96360ffe2" extendedConfigurationObject="1312f787-af91-4e9f-bb79-f968d50d327d">
+    <name>ЮрЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

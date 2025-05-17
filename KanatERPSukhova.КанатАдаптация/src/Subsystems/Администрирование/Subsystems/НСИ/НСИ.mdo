@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cd86775f-0026-456a-ae49-e2382569195b" extendedConfigurationObject="d270b05e-a7dc-4a98-9580-bba276b99bb8">
+  <name>НСИ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Extended</content>
+  </extension>
+  <content>Catalog.КАНАТ_БлокиДоговоров</content>
+  <content>Catalog.КАНАТ_НастройкиПечатиПрайсЛиста</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb4b5d2d-624f-47f2-885a-d49770c3494e" extendedConfigurationObject="53870b25-dc15-45bc-93c6-ba737bf70c4f">
+  <producedTypes>
+    <objectType typeId="8a674578-d960-4078-a3d3-9c740776c148" valueTypeId="51931771-6193-4f1b-8afa-f679ed18ad42"/>
+    <refType typeId="c26edc7a-61f4-4b11-9f89-71d081529582" valueTypeId="d2726f44-19df-4f3e-b8f7-ef2b413d373a"/>
+    <selectionType typeId="254292c6-c2d8-4b17-b7c1-9faebf30f096" valueTypeId="08e57885-381e-41d2-a8c5-552172b82738"/>
+    <listType typeId="983203ec-87fd-4834-95ec-3b4bdcabc745" valueTypeId="38970336-248a-4ade-a9b8-37d27148a8eb"/>
+    <managerType typeId="aa601e83-4a85-4c33-8e1f-9c98c6a5710c" valueTypeId="76859014-8376-47be-b0c8-853398fd32f0"/>
+  </producedTypes>
+  <name>КлассификаторОрганизацийЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

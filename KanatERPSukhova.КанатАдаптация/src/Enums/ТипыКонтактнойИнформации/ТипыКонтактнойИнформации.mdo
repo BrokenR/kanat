@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1671bec7-821e-42ff-bab4-13de21397677" extendedConfigurationObject="8d080f3c-06ed-48bf-9709-eea73d676741">
+  <producedTypes>
+    <refType typeId="9eb4a35d-ce20-44f6-82c0-7e9aeaba620d" valueTypeId="5af058d5-ed82-4059-90b7-cdeac3ba2ed2"/>
+    <listType typeId="c524b667-5a26-4456-8afb-85510ce72eab" valueTypeId="30966cce-54c1-4194-8202-c2c863ab7783"/>
+    <managerType typeId="b0b2ef32-b22f-4a19-a151-37d4e8526a37" valueTypeId="6c1922d7-8f62-4c5c-a25f-7d73f1f8963b"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="f0180b38-5ae4-4a00-871a-1c256271751b" extendedConfigurationObject="c8a18d99-62ff-45a4-acb5-48e3310c1b53">
+    <name>Факс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="348dface-b7c6-4023-b00f-7b4989fa7d11" extendedConfigurationObject="a84a91d2-d326-4bf4-82e6-d573ee35d090">
+    <name>АдресЭлектроннойПочты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="6c91e6be-284b-4e38-aa33-29b2ec19ab4e" extendedConfigurationObject="57b31a5d-9fdc-43d2-ae81-67157822c4b6">
+    <name>Адрес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

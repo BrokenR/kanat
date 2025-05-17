@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="98de8117-03e6-467f-b81c-98416aad831d" extendedConfigurationObject="25600f00-5a0f-4302-95ea-d20a98b8212d">
+  <producedTypes>
+    <objectType typeId="9fa0f56d-b2ae-49b3-9d15-e7ca467763af" valueTypeId="6c546049-0769-4087-bb5c-f54911e38828"/>
+    <refType typeId="5a32b5de-da15-4e93-9baf-632026807e0e" valueTypeId="bffcd325-4cd1-4c17-a8ae-2cf48d498857"/>
+    <selectionType typeId="1a8b107e-2f28-4a1d-b8b8-3c6ee623d864" valueTypeId="a6165961-73a0-42c4-93f7-26b6f434d108"/>
+    <listType typeId="7a419e7b-f0a7-4825-910c-9c195d3f550b" valueTypeId="1285c9a5-3397-490e-9d31-e4cc009a6105"/>
+    <managerType typeId="5104df1d-5872-41d1-a9c1-883dbfc8d9a9" valueTypeId="3710226b-1dd4-4e62-9620-7488a396e642"/>
+  </producedTypes>
+  <name>СкидкиНаценки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="10af7eb5-5aa4-4358-8293-6e53eaf7ca2e">
+    <name>КАНАТ_ВыводитьВПрайсЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>КАНАТ выводить в прайс лист</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="597f9ccd-bbda-46e6-b80e-2356f1b66a20" extendedConfigurationObject="9fa5525c-a92a-4bcb-9e90-f4c062cb6e29">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

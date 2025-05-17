@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcd93adc-4390-4c0c-a572-947acef26cfd">
+  <producedTypes>
+    <refType typeId="75e73c12-5976-46c3-90a2-0a367699e028" valueTypeId="d048f485-9fbc-493a-9a0d-f065503a27ad"/>
+    <listType typeId="5d0f4195-49a4-4341-80fe-84a8b9ac0eb7" valueTypeId="6e0c7c46-3c40-4bda-857e-da4c7bc067c4"/>
+    <managerType typeId="6b8106ab-36c8-4431-bc85-ca49b3905ee7" valueTypeId="0610ad84-2685-4201-ab17-e465537f174d"/>
+  </producedTypes>
+  <name>КАНАТ_РолиПодписантов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли подписантов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b65572f-c7fe-4bda-82ed-fc96ccb71e88">
+    <name>РуководительЛаборатории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель лаборатории</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0258fe6d-4c14-4da6-9f43-e69b7441477f">
+    <name>РуководительТехОтдела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель тех. отдела</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="935c1098-7cb0-4515-8651-4623e9cf0df7">
+    <name>РуководительОУКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель ОУКП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64fd1c8a-3cd4-4f4c-9bef-09074463bac0">
+    <name>СтОператорЭВМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ст. оператор ЭВМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85358df2-c694-4c74-92e0-edcae9a4a251">
+    <name>ТехникЛаборант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техник-лаборант</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b2287f3-6138-48dc-ab61-21e08bbfaff3">
+    <name>ГенДиректор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ген. директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44966c2f-624c-4570-947b-abe6fd698124">
+    <name>ВедИнженерТехнолог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вед. инженер-технолог</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

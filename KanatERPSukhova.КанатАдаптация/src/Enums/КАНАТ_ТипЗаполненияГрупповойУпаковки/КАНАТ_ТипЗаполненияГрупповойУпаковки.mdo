@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9b33100-aa86-42b7-9f81-a474c4db4fb6">
+  <producedTypes>
+    <refType typeId="a0e836c0-f2be-459c-8d1f-f6c0062041c9" valueTypeId="7872a878-2db7-4c06-9e7e-f6f837b28b82"/>
+    <listType typeId="f75ef70d-4924-4efa-a81e-26b08b1359d5" valueTypeId="0bd56681-48d4-4700-9f57-92de6957611d"/>
+    <managerType typeId="cc7e7888-4995-4b4a-a5f7-a1b1815a993e" valueTypeId="a7d282db-052f-44c9-ba05-f56140c43e26"/>
+  </producedTypes>
+  <name>КАНАТ_ТипЗаполненияГрупповойУпаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип заполнения групповой упаковки (КАНАТ)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1172958f-20e4-4f5b-9c35-78fb334a41d9">
+    <name>Сборный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c6f4e82-2442-4873-af8a-e143062da6f1">
+    <name>Несборный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несборный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66cc1acc-615b-4223-8091-0a07d74d2b4d">
+    <name>Россыпь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Россыпь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

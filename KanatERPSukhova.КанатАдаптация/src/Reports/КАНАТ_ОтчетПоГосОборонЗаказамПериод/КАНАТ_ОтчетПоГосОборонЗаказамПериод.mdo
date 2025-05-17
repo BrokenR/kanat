@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa10ab11-0b15-435a-88ab-32c788baf0f0">
+  <producedTypes>
+    <objectType typeId="c591ea25-3422-43e5-938c-83674cde4ae1" valueTypeId="c7b0a0bf-a061-4cbe-a779-08f1f9af473a"/>
+    <managerType typeId="4f9baf41-e413-47c1-af3a-405fd8cfd23a" valueTypeId="2e34e8bc-527e-494d-a97b-f83ba50b1e53"/>
+  </producedTypes>
+  <name>КАНАТ_ОтчетПоГосОборонЗаказамПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о реализации по гособоронзаказам за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КАНАТ_ОтчетПоГосОборонЗаказамПериод.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c01bc963-9cc9-4cb7-b50c-ad96138f897f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

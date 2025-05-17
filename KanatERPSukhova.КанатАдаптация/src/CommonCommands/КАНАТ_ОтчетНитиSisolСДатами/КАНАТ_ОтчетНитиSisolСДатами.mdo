@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f1111c2-c0aa-4d88-93dd-4996766cf680">
+  <name>КАНАТ_ОтчетНитиSisolСДатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по нитям ПП с экструзионной линии ф. Sisal с датами</value>
+  </synonym>
+  <group>ActionsPanelReports</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

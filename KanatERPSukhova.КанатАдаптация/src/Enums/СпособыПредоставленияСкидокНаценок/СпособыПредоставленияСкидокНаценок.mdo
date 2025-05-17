@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b7c60545-89c8-4492-a8ac-4905e2696cce" extendedConfigurationObject="f7257606-ced0-4ff4-8c80-719a2c77e559">
+  <producedTypes>
+    <refType typeId="420736f3-de46-4936-b67d-650257e40f0d" valueTypeId="985807fe-fe22-4ae0-8ab4-9de95c930d1c"/>
+    <listType typeId="cd3b72d6-e7d6-460e-9714-c3f1b1c33488" valueTypeId="7acee171-64ef-4014-b824-cf0da31a5da7"/>
+    <managerType typeId="75f02f41-175c-4dd7-8a46-431a910c2064" valueTypeId="d64341bd-53f4-4d6a-b4e3-e73e996ad568"/>
+  </producedTypes>
+  <name>СпособыПредоставленияСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="2b588239-edbc-4661-a22f-8cd57e9de199" extendedConfigurationObject="c924740d-8ab4-4900-888a-979745322bd5">
+    <name>Процент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="d0df8555-cfca-4697-80a7-876dbe9f0e36" extendedConfigurationObject="82faee7b-c96d-487c-9dbc-ef1600fd3f8c">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

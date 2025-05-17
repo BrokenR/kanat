@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="54e4d945-8cc6-4f41-81f4-0ab9497c89cf" extendedConfigurationObject="86e05022-b8c0-4115-b7db-bc4853c53e50">
+  <name>CRMИМаркетинг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <subsystems>ЦеныИСкидки</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86f16923-f801-40fd-8bd7-db532710a30e" extendedConfigurationObject="d06e04fd-6b77-4254-9526-e5263c398d68">
+  <producedTypes>
+    <refType typeId="49938222-ff4d-43c3-b921-5a564139fd61" valueTypeId="91efa3be-6834-42c3-b0fc-53fecc1b2c0b"/>
+    <listType typeId="a0db954a-b100-4731-bc00-9906f2257109" valueTypeId="36e8149d-5dde-4fa1-8845-71743c719f7c"/>
+    <managerType typeId="943e5cea-9be3-479d-bee2-b9b0464e474e" valueTypeId="3422953c-ac1d-4130-ab58-15a6cf783708"/>
+  </producedTypes>
+  <name>ВариантыОтбораНоменклатурыДляРасчетаСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="4be12cd5-3269-4f32-bb2d-cae436c05562" extendedConfigurationObject="51df3442-3b2e-41d6-903b-e34e8eb5020a">
+    <name>СписокНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b7964d71-61cd-4f0f-831b-53ad6ec9b884" extendedConfigurationObject="fb58dd3d-6803-403c-a669-606f7f70dccf">
+    <name>БезОграничений</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="5fe7468d-d938-4724-b6c3-5ffd56910d2a" extendedConfigurationObject="40ecf1b7-63c4-4b53-84b5-6c1d30fa8a45">
+    <name>СегментНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a6282124-3854-47ad-9380-9e31f0c7e11c" extendedConfigurationObject="577eb713-76d3-4370-a49c-037400d6e67e">
+    <name>НеСегментНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="9c5fb016-d16f-4b84-b9ac-b3186279e0f1" extendedConfigurationObject="edb3f00a-b471-4cd5-bb3c-c7ea09544efe">
+    <name>ОтборКомпоновкиДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8396ec5e-58bd-4520-a339-6866bed7f438">
+  <name>КАНАТ_ПросмотрРезультатовИспытания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр результатов испытания(КАНАТ)</value>
+  </synonym>
+</mdclass:Role>

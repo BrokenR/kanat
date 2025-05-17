@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78f4e6a6-2861-4329-a992-9b294c498204">
+  <name>КАНАТКач_НТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>НТД</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КАНАТ_НТДПоказатели</content>
+  <content>Catalog.КАНАТ_НТДРазмерности</content>
+  <content>Catalog.КАНАТ_НТДНоменклатуры</content>
+  <parentSubsystem>Subsystem.КАНАТ_УправлениеКачеством</parentSubsystem>
+</mdclass:Subsystem>

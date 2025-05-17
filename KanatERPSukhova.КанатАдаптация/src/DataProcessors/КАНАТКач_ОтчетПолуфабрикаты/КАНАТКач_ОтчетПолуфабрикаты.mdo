@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="175d01d1-593d-49f7-84f8-1a74182190ef">
+  <producedTypes>
+    <objectType typeId="369efba8-32c1-47be-bf48-f6ffa0a417d3" valueTypeId="cad3fdeb-0cb3-4de2-9420-d77e968db33e"/>
+    <managerType typeId="4ea2c185-67b8-4ce9-9c8f-39dd1565d5ab" valueTypeId="d9f677b4-2fc7-4b36-b293-ea93360a4982"/>
+  </producedTypes>
+  <name>КАНАТКач_ОтчетПолуфабрикаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по полуфабрикатам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ОтчетПолуфабрикаты.Form.Форма</defaultForm>
+  <forms uuid="747a0a9e-99bc-48f7-b41b-6fbd74fd0c65">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b5c35b80-b4f5-46f5-b619-3bf2d83f2ca9">
+    <name>ПФ_MXL_ОтчетПолуфабрикаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет полуфабрикаты</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

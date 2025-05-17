@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="19f7731b-5ccb-49a1-b4a9-a13fb3c782e5" extendedConfigurationObject="fdfd35a6-1406-4103-890b-56e84434ce5a">
+  <producedTypes>
+    <objectType typeId="5412529e-c4a9-43f7-bfa5-dacc005c0e2b" valueTypeId="6fdadf53-65f6-495f-b3b3-f6639ce51070"/>
+    <managerType typeId="1d3004e0-413a-41fd-a285-d6eb0c745011" valueTypeId="23764af7-9623-4f38-a8f3-251b68d2725e"/>
+  </producedTypes>
+  <name>МобильноеРабочееМестоКладовщика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="27429cb0-165d-4481-aa36-c4a3a5ce4458" extendedConfigurationObject="5cd1c1b8-025a-4eeb-82a6-9e23f8aeef8a">
+    <name>ПриходныйОрдер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="ba8dbde1-599b-4fc9-87d4-0c9bcfaadae9" extendedConfigurationObject="9d7126e4-c46e-4233-a398-aa0557c934ec">
+    <name>КарточкаТовара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="6acb357e-46d0-4399-8013-f27d8b43b255" extendedConfigurationObject="195ab508-4758-4afc-8330-495ec06c7aad">
+    <name>РасходныйОрдер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="3b8fe068-6332-4ad1-9282-31f395fc5884" extendedConfigurationObject="558e18a9-50cd-495d-96c4-8cb312932557">
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

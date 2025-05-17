@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34f7177a-cfd5-43c7-ab69-2bab39127225">
+  <name>Канат_ПросмотрСертефикатКачества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр сертефиката качества(КАНАТ)</value>
+  </synonym>
+</mdclass:Role>

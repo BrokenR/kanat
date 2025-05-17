@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28a36af4-66fa-4e5b-a3a0-070a9ecf526a">
+  <producedTypes>
+    <listType typeId="67c6335c-8239-45da-8f00-aebd3b2d7b27" valueTypeId="8906dbaf-84c4-48e5-bd12-75f6baaa2a66"/>
+    <managerType typeId="29d9497f-7c44-47ad-9118-e12ec676bc29" valueTypeId="c1c724bc-cfd3-43d0-9438-2cd4fcf67d78"/>
+  </producedTypes>
+  <name>КАНАТ_СвязанныеДокументыПроизводстваИРеализаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы производства и реализаций</value>
+  </synonym>
+  <comment>ЧТЗ 159</comment>
+  <type>
+    <types>DocumentRef.ДвижениеПродукцииИМатериалов</types>
+    <types>DocumentRef.ЗаказКлиента</types>
+    <types>DocumentRef.КАНАТ_СпецификацияКДоговору</types>
+    <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.СборкаТоваров</types>
+    <types>DocumentRef.КАНАТ_ПропускНаВыезд</types>
+    <types>DocumentRef.КАНАТ_РаспоряжениеНаОтгрузку</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.КАНАТ_СпецификацияКДоговору.Attribute.ДокументОснование</content>
+  <content>Document.КАНАТ_РаспоряжениеНаОтгрузку.Attribute.ДокументОснование</content>
+  <content>Document.КАНАТ_ПропускНаВыезд.Attribute.ДокументОснование</content>
+  <content>Document.СборкаТоваров.Attribute.КАНАТ_ДвижениеПродукцииИМатериалов</content>
+</mdclass:FilterCriterion>

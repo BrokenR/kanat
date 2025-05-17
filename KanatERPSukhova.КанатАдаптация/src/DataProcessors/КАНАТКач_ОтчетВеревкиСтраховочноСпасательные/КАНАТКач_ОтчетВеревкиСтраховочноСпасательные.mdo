@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f934e7c-d569-40e0-8e5f-c99a857a234f">
+  <producedTypes>
+    <objectType typeId="fe4a798a-2ad4-4242-b300-7937decd646c" valueTypeId="10ca545e-3cf2-4931-b439-442339086d6e"/>
+    <managerType typeId="f4e7e967-5c5f-46de-b729-8f54428cee67" valueTypeId="e335f32a-475f-4005-a8e8-f9a2afa30439"/>
+  </producedTypes>
+  <name>КАНАТКач_ОтчетВеревкиСтраховочноСпасательные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по веревкам страховочно-спасательным</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ОтчетВеревкиСтраховочноСпасательные.Form.Форма</defaultForm>
+  <forms uuid="112d79db-36c1-442d-b377-1b659f3c2486">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5e5cb7bb-d9a4-464a-ab5a-9aae5ed8f9b3">
+    <name>ПФ_MXL_ОтчетВеревкиСтраховочноСпасательные</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет веревки страховочно спасательные</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

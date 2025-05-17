@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fcbe5ae8-ada5-434f-a803-6d2295d37375" extendedConfigurationObject="bf75bcc5-82ee-4bd0-89e1-420b42c99454">
+  <producedTypes>
+    <objectType typeId="38907394-d4c8-4a39-a294-61548e87da29" valueTypeId="5d8fd4fb-093c-410f-98a9-a16a4f66e80e"/>
+    <refType typeId="0e42d897-f6c2-4ef8-a964-fdfbca787d88" valueTypeId="fc93231b-e1a2-4282-b915-5d2dd8d2a338"/>
+    <selectionType typeId="2f53b6d7-f390-4a93-834b-46eb63d03b0d" valueTypeId="41c221e1-b076-41b2-a0b6-c7581090b08d"/>
+    <listType typeId="641d5d4a-d478-4ccf-9a01-c3d942684a0e" valueTypeId="5fb5f8f4-0b2a-4b36-a62a-2e022c4fa620"/>
+    <managerType typeId="5bbccfe3-e521-4a81-aad6-959fd69deb99" valueTypeId="156332cd-6e9b-44e9-8f75-bd96813bc297"/>
+  </producedTypes>
+  <name>Партнеры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="cfb58679-44ce-4a49-900f-5360b50e55c7">
+    <name>КАНАТ_ВИПКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВИП-Клиент</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aaaab43d-f1a7-4d24-85bc-eaf6fd94df3b">
+    <name>КАНАТ_ИспользоватьГрупповыеУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать групповые упаковки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5750b6d-01ee-476a-9180-09266388c2ba">
+    <name>КАНАТ_КодСбыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>код сбыта</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43e556ed-3db9-47cf-b62c-d1685d37fb6c">
+    <name>КАНАТ_Отрасль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отрасль</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.КАНАТ_Отрасль</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f386307-66f0-4e73-8a3d-c4241bd05948">
+    <name>КАНАТ_ФормаОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма организации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.КАНАТ_ФормаОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="341488b0-ada8-4e4e-863c-011c24c4ac32">
+    <name>КАНАТ_ГруппировкаДляОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>КАНАТ группировка для отчета</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.КАНАТ_ГруппировкаДляОтчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="67dc859e-2e5f-45bd-be09-af2a6d447495" extendedConfigurationObject="0daacbf9-aa02-4485-a535-d2d28b00523c">
+    <producedTypes>
+      <objectType typeId="1c79dd59-8eec-4e57-a529-144bd6c334f0" valueTypeId="fafa98ab-5d9b-46a7-ad46-b39910fc350d"/>
+      <rowType typeId="c8615ffe-fb6a-419c-8e6e-f382a62fa42f" valueTypeId="887fd130-df7b-4665-bc21-3b072d6ed132"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
+  <forms uuid="06fce129-49c2-456f-ab8c-161aadd48b39" extendedConfigurationObject="0a9b29ca-f68a-4d5c-8ba0-9a2fb079ab7c">
+    <name>ФормаЭлементаРеквизитыКонтрагента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

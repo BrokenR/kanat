@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="676d47e0-0d07-439c-9d5c-c2c5fee42217" extendedConfigurationObject="5abb70ea-0663-4378-919d-0ea83e97d3dc">
+  <producedTypes>
+    <refType typeId="76f19023-9631-4912-9cca-16a7f5568a26" valueTypeId="930e13b0-9cd9-43e2-8218-4238181e9ba7"/>
+    <listType typeId="a9fce47e-f428-46cb-af10-b9f704b2cfc9" valueTypeId="fcc9915a-cfd0-47da-8f20-ee6a1013b0a2"/>
+    <managerType typeId="e29da93d-ffb1-4592-acb0-9dd81e2e1416" valueTypeId="4c093fb1-a7ec-41dd-9bba-0f51f9378a8d"/>
+  </producedTypes>
+  <name>ВариантыОтсчетаДатыПлатежа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="0d1f6ce7-7941-428b-a7dd-259b609182dd" extendedConfigurationObject="b690e4c2-e9a8-40ea-8b8b-fea31617f479">
+    <name>ОтДатыОтгрузки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

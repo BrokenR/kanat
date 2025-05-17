@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85f96da4-2438-4709-b0eb-b994d5fbf815">
+  <producedTypes>
+    <listType typeId="87b325ee-4fe5-4458-ab42-06f901ca6e34" valueTypeId="ddceb0c5-e6a9-4e5b-bbed-50ce4b4f4cec"/>
+    <managerType typeId="44ba9f5e-e5ea-4efc-8ae0-5febeaa85243" valueTypeId="9a97dc3d-571a-4872-b9fd-b599fb22a130"/>
+  </producedTypes>
+  <name>КАНАТ_СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАНАТ связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЭтапПроизводства2_2</types>
+    <types>DocumentRef.ДвижениеПродукцииИМатериалов</types>
+    <types>DocumentRef.ПроизводствоБезЗаказа</types>
+    <types>DocumentRef.КАНАТ_РезультатИспытаний</types>
+    <types>DocumentRef.СборкаТоваров</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.КАНАТ_РезультатИспытаний.Attribute.ДокументОснование</content>
+  <content>Document.СборкаТоваров.Attribute.КАНАТ_ДвижениеПродукцииИМатериалов</content>
+</mdclass:FilterCriterion>

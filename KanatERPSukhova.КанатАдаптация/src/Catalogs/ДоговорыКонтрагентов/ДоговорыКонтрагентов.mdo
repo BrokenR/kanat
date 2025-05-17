@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ed7a20e2-52c0-425e-9f44-f6bb164c2831" extendedConfigurationObject="3404cb9a-92ea-42b9-9086-ad481dbc27d7">
+  <producedTypes>
+    <objectType typeId="ddf109f0-10ac-4385-b8b8-0a26fd95bc47" valueTypeId="cb5564f2-4f5d-4b32-b1b5-c38c68d764b4"/>
+    <refType typeId="89d75474-cfbc-42b7-89bf-202574ea8409" valueTypeId="03b376b9-2b27-4baa-a84b-35b65e576a86"/>
+    <selectionType typeId="628b814e-19fe-4084-9309-1ef0ba11822a" valueTypeId="6de919be-e19c-4037-bf01-46578996850e"/>
+    <listType typeId="c68e0efe-03a1-41ce-8bc4-a2aa5f95b7a2" valueTypeId="31c51487-a2e5-41dc-a49b-791cd5032176"/>
+    <managerType typeId="53fee13d-69d1-48ec-aefd-9b2cd3f792e9" valueTypeId="f412ae82-b635-4327-b26b-bd373a2c35ee"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="fb82d726-5ff5-477c-9e1e-59e614136399">
+    <name>КАНАТ_ХранилищеИтоговыйТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоговый текст договора</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aee50e83-24be-4312-b2f7-8b15081e948d">
+    <name>КАНАТ_ПоСоглашению</name>
+    <synonym>
+      <key>ru</key>
+      <value>По соглашению</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>CatalogRef.СоглашенияСКлиентами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3277b64a-417d-49ee-9f59-162c1c6b32c7" extendedConfigurationObject="d4de0c91-22dd-4ce4-bc98-884061653165">
+    <name>ГосударственныйКонтракт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ГосударственныеКонтракты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="5285b5d8-c101-4bc1-8bf7-ed713d02c9a5" extendedConfigurationObject="9b99d944-1b87-423e-a8a0-f6748f86530b">
+    <name>НаименованиеДляПечати</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="5e2dcaab-031a-4919-9cd7-51b42dd30ffa" extendedConfigurationObject="f56e0158-d692-474d-bb59-3cb9fe0131ae">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="91ef6a36-fc71-4e45-b39d-6103e0f58cfb" extendedConfigurationObject="ec175e6e-8a0f-46c1-8f61-1933ed068350">
+    <name>ДоговорСУчастникомГОЗ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="e78db73a-9acb-456f-abc5-8727259a6434" extendedConfigurationObject="c2821c1b-dcf2-47d6-9871-b26fe7c33e1f">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6b6b977c-68a3-419c-9a6c-49f2c2a3ced8" extendedConfigurationObject="a00d91d9-5c1d-491a-b338-92dc631c1afd">
+    <name>Дата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="682571d8-696f-4128-8fea-386e837c8e44" extendedConfigurationObject="ba089968-9caa-4200-9002-b8f3267b4b61">
+    <name>КонтактноеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КонтактныеЛицаПартнеров</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="89fb3e36-ae22-4864-8883-2db392dbcbfb" extendedConfigurationObject="6fe24eab-4e23-451e-8cae-c25d6e78e3df">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="2cd97d1e-33d5-4f5f-8d2b-2cd72cadfca4">
+    <producedTypes>
+      <objectType typeId="2d3723aa-e0d1-4327-8fe9-af1174245e1e" valueTypeId="d009a0e3-47d3-4ef6-a6ef-8793c347df31"/>
+      <rowType typeId="9c174a74-8f2a-4368-95cd-a59253d60279" valueTypeId="c24bc72b-dff9-41ef-a571-f2b94300f611"/>
+    </producedTypes>
+    <name>КАНАТ_БлокиДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>КАНАТ блоки договора</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7f0c9bc6-0463-495d-b46b-5fc71e72d6b0">
+      <name>БлокДоговора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Блок договора</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <synonym>Extended</synonym>
+        <choiceForm>Extended</choiceForm>
+      </extension>
+      <type>
+        <types>CatalogRef.КАНАТ_БлокиДоговоров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4ff4ebcc-2fa4-49c3-874f-bcbe2892f782" extendedConfigurationObject="40b52a5b-1845-4d3e-a33e-3888d0dec1ab">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="fc0576e8-0587-4f97-8111-679fbcaeabe8" extendedConfigurationObject="1cf14f4e-32a6-4552-a172-ca27ff4265cf">
+    <name>ФормаВыбора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

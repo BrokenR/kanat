@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f77089cd-6d85-480b-b9dd-d964ea822e8d" extendedConfigurationObject="782cb93d-36e6-4923-b2b6-75caa3459cd6">
+  <producedTypes>
+    <objectType typeId="3e4f00a3-716a-4d52-bc18-0ffcde549f34" valueTypeId="0dff0082-e114-41f8-99cd-03f02e9a631c"/>
+    <refType typeId="fac14ac2-2fe6-4f7b-b583-1aff3f935b22" valueTypeId="3ee29268-c632-46d7-af43-0e6f1f4183fc"/>
+    <selectionType typeId="59f06fb8-9def-4871-9aaa-bcc3c9a12054" valueTypeId="99996753-8c6e-46fa-89d6-b2076361b3ea"/>
+    <listType typeId="a339775a-b15b-4ae3-92af-5f074745773b" valueTypeId="b807a512-2873-4237-9c17-0224041036f1"/>
+    <managerType typeId="95fe4277-1467-4600-9c94-0de38c9eb84d" valueTypeId="a5cfe1b4-170a-4497-b644-7e70ca7f71dc"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Extended</predefined>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="0b33e246-fde4-4668-8e32-0e6831e0869f">
+      <name>СправочникКонтрагенты</name>
+      <description>Контактная информация справочника &quot;Контрагенты&quot;</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="a1514332-009f-459f-b49e-cfcdb145227a">
+        <name>ФактАдресКонтрагента</name>
+        <description>Фактический адрес</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="9020bbfd-f5ca-47b4-bccb-7cd885096a7a">
+      <name>СправочникПартнеры</name>
+      <description>Контактная информация справочника &quot;Партнеры&quot;</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="446a540b-477f-4dfa-b5cf-87d2863b2321">
+        <name>АдресПартнера</name>
+        <description>Адрес</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+</mdclass:Catalog>

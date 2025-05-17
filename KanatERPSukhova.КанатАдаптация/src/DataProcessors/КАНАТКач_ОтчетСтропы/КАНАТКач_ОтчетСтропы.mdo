@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e2c1961-95b4-4e85-92d5-5e24a0e9eef3">
+  <producedTypes>
+    <objectType typeId="634ccea2-88d6-4153-810e-c43aac1b69b4" valueTypeId="094b8b76-67c3-426c-98b8-18f7dfa49320"/>
+    <managerType typeId="8d580813-b84e-4885-ab43-94a0480a4184" valueTypeId="e9a8c1c1-49e1-4341-a84d-637e858c8e23"/>
+  </producedTypes>
+  <name>КАНАТКач_ОтчетСтропы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по стропам грузовым синтетическим шнуровым кольцевым</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ОтчетСтропы.Form.Форма</defaultForm>
+  <forms uuid="b15110e8-bc15-4b04-a805-9f1be29ee4c1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4e63f634-8d73-43df-b2d9-0a186567a94b">
+    <name>ПФ_MXL_ОтчетСтропы</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет стропы</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7f1366d-a7f9-4063-bb07-97074d1bb28b">
+  <producedTypes>
+    <objectType typeId="bbb214c3-9f1b-4695-803d-d100894bfbd7" valueTypeId="1983497e-fc10-4ee0-aa20-89584d08a697"/>
+    <refType typeId="965e7c56-c9f9-4b1d-8357-26c88654241c" valueTypeId="b729e4e6-bd1f-4336-8b50-2457c09d5ee2"/>
+    <selectionType typeId="b203bc9f-ba33-4515-8280-cbbe22d2fb98" valueTypeId="435658ef-94e2-4043-a7d1-73bdac28359c"/>
+    <listType typeId="c51de3d3-1d97-4c59-a9fd-4c53361cb92f" valueTypeId="6b51f7ea-ead9-4da7-98b6-8d6d53c46cb9"/>
+    <managerType typeId="e2563729-c40e-486d-b1de-12675b11ab02" valueTypeId="a75954a5-e0d1-44e0-ace6-fa207f5554c4"/>
+  </producedTypes>
+  <name>КАНАТ_Поддон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддоны (КАНАТ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КАНАТ_Поддон.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КАНАТ_Поддон.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c8b252aa-7dce-42ad-bd3c-04baf69ba682">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="57723302-c222-4290-a11e-140f51dc37db">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c267b827-90d6-4e41-a1b2-fab0312992f0">
+  <producedTypes>
+    <objectType typeId="0717857a-7fbc-4ccc-abed-b7df4dba9246" valueTypeId="cdb0d73b-fab9-4fbb-9951-9e4bd3ffeb69"/>
+    <managerType typeId="fdeb683a-3b40-4077-9cbe-1e59dffc0b4d" valueTypeId="b8ab2530-6671-4966-b68b-c7b56d33036b"/>
+  </producedTypes>
+  <name>КАНАТКач_ОтчетПетлиСтраховочныеАрамидные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по петлям страховочным термостойким арамидным</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ОтчетПетлиСтраховочныеАрамидные.Form.Форма</defaultForm>
+  <forms uuid="0a20c569-88d8-4ff1-afa6-cff620a833b1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="79b6e975-ef02-48db-8365-38a905efa0e5">
+    <name>ПФ_MXL_ОтчетПетлиСтраховочныеАрамидные</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет петли страховочные арамидные</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

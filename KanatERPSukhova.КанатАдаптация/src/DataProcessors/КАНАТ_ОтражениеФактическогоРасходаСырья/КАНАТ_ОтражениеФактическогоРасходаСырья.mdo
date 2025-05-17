@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c3f3910-64d1-48b0-83e3-1d531bb17d67">
+  <producedTypes>
+    <objectType typeId="c0c82be2-1119-4838-b5af-32121f1502b6" valueTypeId="9b12c966-cfbb-4e38-abf3-73d66df0263e"/>
+    <managerType typeId="c05c2912-003b-4acd-a1ae-9173f740ed52" valueTypeId="209c1b7c-ff24-4721-8a5c-0eec490fac2a"/>
+  </producedTypes>
+  <name>КАНАТ_ОтражениеФактическогоРасходаСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отражение фактического расхода сырья (КАНАТ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТ_ОтражениеФактическогоРасходаСырья.Form.Форма</defaultForm>
+  <forms uuid="8e4b050f-70d2-429c-bf61-3f89103db422">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

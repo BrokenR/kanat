@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7057ac32-45b2-4c48-9777-e58ac6ff1e99">
+  <name>КАНАТ_ЗаписьШКНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись ШКНоменклатуры</value>
+  </synonym>
+  <comment>ЧТЗ ШК-1 Канат Процесс штрихкодирования</comment>
+  <source>
+    <types>CatalogObject.СерииНоменклатуры</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КАНАТ_События.ЗаписатьВторичныеДанныеПлановыхНачисленийПриОтменеПроведенияДокумента</handler>
+</mdclass:EventSubscription>

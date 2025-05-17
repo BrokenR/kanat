@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23ca10a1-1cc3-4171-ab6e-b6bf7225d305">
+  <producedTypes>
+    <selectionType typeId="f70f690f-021d-43f0-91da-54902f8bc82e" valueTypeId="e2ae15ab-8e36-41ac-a803-0dc18cb4d3a2"/>
+    <listType typeId="3a56ab72-0499-4ce7-8b96-655fc529562c" valueTypeId="1d95f542-90bd-41a7-ae80-7757094d18d2"/>
+    <managerType typeId="ee4b7ab9-8068-4c3d-8998-07cec9aa779f" valueTypeId="6ae79991-5d7b-433f-87c4-6366892cb0c9"/>
+    <recordSetType typeId="30e53f77-75d1-48ca-9c2a-284acdfa3955" valueTypeId="4b6051c1-d310-42ec-ab5a-9acfdf8e85c6"/>
+    <recordKeyType typeId="3d2cb777-6cc5-4f03-91f1-426a28470a4f" valueTypeId="a1aedabb-48fc-4228-bc0d-55e6c0e980c7"/>
+    <recordType typeId="dd11f139-b989-40f0-8ce3-c391d486184b" valueTypeId="15ffe42b-64ff-4820-b74d-ce6cd780a93e"/>
+  </producedTypes>
+  <name>КАНАТ_СоответствиеГрупповыхУпаковокСериямНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие групповых упаковок сериям номенклатуры (КАНАТ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d1a99902-e17d-45c2-9955-b029a8aa7af1">
+    <name>ВесНетто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес Нетто</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b2a97813-82d4-43e1-88ce-14026761b13c">
+    <name>ВесБрутто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес Брутто</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="76a2f375-2fe4-4d2a-905f-64d4dc6434e5">
+    <name>КоличествоМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e0cc42c0-bbde-4b99-b0d3-97374a947d35">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0da80d05-ef9b-4ef8-8f30-ac7df942a3aa">
+    <name>ГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КАНАТ_ГрупповыеУпаковки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="09ee745e-3172-4c06-9f1b-ad46e2cfe41d">
+    <name>Серия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d402ee48-ccc6-4bc8-881f-4f8a37478361">
+    <name>НомерСтрокиТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки ТЧ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

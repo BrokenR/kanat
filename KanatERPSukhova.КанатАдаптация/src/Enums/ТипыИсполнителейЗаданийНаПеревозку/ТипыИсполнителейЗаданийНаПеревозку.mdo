@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3f147e1b-2145-4339-85d8-708f4d37be2b" extendedConfigurationObject="fb378302-d95b-4135-bffd-6239a0199221">
+  <producedTypes>
+    <refType typeId="eb1d6156-cb96-47e6-b4c7-7f215744441a" valueTypeId="1efb3137-e8ae-4f8d-b81e-a8ff9dcc1263"/>
+    <listType typeId="8c7ca61b-7702-44a1-9db2-1b0ac36e4bc5" valueTypeId="3a1054fe-add7-4d60-a843-ba0c34f3a7da"/>
+    <managerType typeId="3ff11ab9-8291-4ce6-919a-107bf704f749" valueTypeId="5c977f54-3445-49df-9334-a354f7688704"/>
+  </producedTypes>
+  <name>ТипыИсполнителейЗаданийНаПеревозку</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="24703631-ef1a-4716-b603-a635f44b4a42" extendedConfigurationObject="a8905e3a-939f-4248-8255-c2c1f39d3143">
+    <name>НашаТранспортнаяСлужба</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b6308a19-fdaf-47d6-be85-38aecba4d26e" extendedConfigurationObject="d5f011ed-9752-4da4-989a-fbf936cffbff">
+    <name>Перевозчик</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

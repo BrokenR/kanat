@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf330ca5-7a7e-4c31-8fb2-7d8ae3ef47be">
+  <producedTypes>
+    <selectionType typeId="566c8d8b-7d8b-42eb-afe1-0ce59fe1d03b" valueTypeId="75ed1863-f67f-4b7f-94fb-4bf6c5d0f155"/>
+    <listType typeId="9efc66cd-5101-4708-b59c-76555c9e0940" valueTypeId="dc5d180f-bda4-4573-8d75-c699ff2f2568"/>
+    <managerType typeId="cdf887e3-3310-44cf-8e76-b22b987706f9" valueTypeId="e91a6cf1-3a0f-422e-a790-a1ff78dbed2e"/>
+    <recordSetType typeId="3a53b509-fa87-4393-bb7e-81f9a9e90587" valueTypeId="f556f620-7efc-4c2e-9f6c-13006826ceba"/>
+    <recordKeyType typeId="893494a8-0684-4a09-a520-b9179b064afb" valueTypeId="1e0ff8b9-652f-4e42-a93e-8deadbc4a5d8"/>
+    <recordType typeId="18462483-a470-4607-9abd-2f8f732d06a4" valueTypeId="f36085aa-73fc-4b3b-a0cd-af173b1c8731"/>
+    <recordManagerType typeId="9fb27e0a-b1b4-4666-bc33-a67f86e8a98e" valueTypeId="1ea02669-b903-46a8-b729-05b0176bba36"/>
+  </producedTypes>
+  <name>КАНАТ_ЛицаПодписывающиеЗаПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лица подписывающие за подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="42f628ba-6ef2-4af9-8130-20e46bca4cc5">
+    <name>РольРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль руководителя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КАНАТ_РолиПодписантов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7f62a4c6-705b-4b3d-95c0-8b44253ab87c">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="af0c88c2-186e-42c5-a566-c14a80893806">
+    <name>Замещающий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замещающий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b64e352a-e6e2-4dd6-bbf0-2c8fa2056d71">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="278a522d-8763-4952-a38a-88c5950386d2">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="782b1f78-046c-4b3d-b996-386009d55a2e">
+  <name>КАНАТ_ОтчетПоИспытаниямГотовойПродукцииОбщий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по испытаниям готовой продукции общий</value>
+  </synonym>
+  <group>ActionsPanelReports</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

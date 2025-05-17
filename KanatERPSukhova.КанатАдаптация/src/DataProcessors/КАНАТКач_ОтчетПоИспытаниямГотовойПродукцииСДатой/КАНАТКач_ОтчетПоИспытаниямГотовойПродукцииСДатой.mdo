@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b64c4130-7a06-4a42-b4e8-8618d3c1d9e8">
+  <producedTypes>
+    <objectType typeId="bf7c18d1-a90b-4054-a80f-87500d6be450" valueTypeId="04c80741-a4b4-4bca-9e49-e1d291f47e3d"/>
+    <managerType typeId="68a58cd5-a56d-48b3-97d8-0565fa6a7c30" valueTypeId="cffce015-615d-4187-a281-5f5680ebcc8b"/>
+  </producedTypes>
+  <name>КАНАТКач_ОтчетПоИспытаниямГотовойПродукцииСДатой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по испытаниям готовой продукции (по цеху) с датами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ОтчетПоИспытаниямГотовойПродукцииСДатой.Form.Форма</defaultForm>
+  <forms uuid="9b642f06-5e47-483b-9a88-9aa08c231b3d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="320d8d68-9a38-4446-bb64-255b2a17d3c8">
+    <name>ПФ_MXL_ОтчетПоИспытаниямЦехСДатой</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет по испытаниям цех с датой</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

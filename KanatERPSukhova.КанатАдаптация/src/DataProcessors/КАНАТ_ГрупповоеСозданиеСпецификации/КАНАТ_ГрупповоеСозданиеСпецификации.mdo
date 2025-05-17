@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e126fa80-c01f-4d4b-b6a8-bf80aafaad30">
+  <producedTypes>
+    <objectType typeId="4bef5e50-95eb-4fca-9b70-3fd7310fc7de" valueTypeId="3a385fda-feb5-4751-8d00-1ee0456b148f"/>
+    <managerType typeId="1d3ceec1-bf2a-43e3-8bab-428c3bde6276" valueTypeId="7415c6d1-b8ad-4f84-ae27-20ffde36ba61"/>
+  </producedTypes>
+  <name>КАНАТ_ГрупповоеСозданиеСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>групповое создание спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТ_ГрупповоеСозданиеСпецификации.Form.Форма</defaultForm>
+  <attributes uuid="7b9e28b9-db19-474f-93cb-872ee6961b44">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РесурсныеСпецификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="5a3e0a92-2901-4f5c-bfa5-596d16d9ab34">
+    <producedTypes>
+      <objectType typeId="62474e13-3f88-4c5e-9459-95afa357e820" valueTypeId="657cb1ea-d4b7-4a03-b30f-ca8cb1777990"/>
+      <rowType typeId="113e4833-a475-4995-8f72-350db48c534d" valueTypeId="b36e7bed-98da-4865-9fcb-469445195a4e"/>
+    </producedTypes>
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9baf9dae-31a8-49fd-ae9f-74445ac26487">
+      <name>номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="69d416fb-08c8-47b5-ac3d-d92f0616e7c6">
+    <producedTypes>
+      <objectType typeId="e488678a-bd17-4739-8a2b-330c10ec1d7f" valueTypeId="79e33331-b4a7-4141-a63b-1bb85d421846"/>
+      <rowType typeId="41eb1610-b14c-4597-a2c2-687214ac80bb" valueTypeId="51156b69-d983-4d2d-8367-b30a39271b15"/>
+    </producedTypes>
+    <name>ссылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c4d4ffcd-b11b-4d6b-b20b-b5c78511b111">
+      <name>ссылки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РесурсныеСпецификации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f12149a7-3257-4b76-8a33-f7f76fa0ed52">
+      <name>номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="92dff2f7-8fd5-491f-97ea-b0eda2ce2113">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

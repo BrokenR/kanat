@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f053211d-f0c7-4247-a741-75b523bafb48" extendedConfigurationObject="1ce49200-30ea-44d6-97f7-390bc2c5dee9">
+  <producedTypes>
+    <objectType typeId="42fa8af3-20e3-441b-a7f3-5216296448f1" valueTypeId="e94cefd9-05ba-46bb-b200-c97136c5e99e"/>
+    <refType typeId="e16b4fbc-6a3f-4a4e-a393-2daddbb4ac9e" valueTypeId="ba049a50-a374-4c96-b280-770c442cc57a"/>
+    <selectionType typeId="fa553b67-297b-4a52-8c56-9f404a77b1e7" valueTypeId="633737f8-e144-4f91-9919-01c4c2a5f701"/>
+    <listType typeId="4d3f322e-b90b-464c-bc50-b6ecacd3ee89" valueTypeId="ba5ce287-275e-47e2-824b-39a910315163"/>
+    <managerType typeId="42b1f830-29d7-4171-97f9-6070e8d28e9c" valueTypeId="08c3e19f-557b-41bd-b4a2-6b476f76aa1f"/>
+  </producedTypes>
+  <name>ВариантыКомплектацииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="cdac677a-1a21-46b9-a5ff-063294829676" extendedConfigurationObject="354a86ec-cf4f-4299-a60e-80a77f619e67">
+    <producedTypes>
+      <objectType typeId="df71134f-f0d2-438d-9dcd-90731aa0f69c" valueTypeId="97811d8c-9c0f-403d-b9f5-74b717dbf4b9"/>
+      <rowType typeId="5c2f3645-653f-48f0-ae2a-826212ab7851" valueTypeId="1f001db8-62d6-4322-b13a-f43fc2970637"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
+</mdclass:Catalog>

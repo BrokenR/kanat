@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7efb30df-ccb7-4080-8947-c92abc1e7586">
+  <producedTypes>
+    <managerType typeId="a21f46ce-d0b7-40e6-93d9-d3f0af3bff03" valueTypeId="f3c7597f-7522-47bf-aa15-faa7adb5fad9"/>
+    <valueManagerType typeId="0d2855a5-d0eb-4f0b-a223-12b5c24617c7" valueTypeId="de6eadc7-1dd4-4238-9197-869d2b6fee58"/>
+    <valueKeyType typeId="6976562d-99d6-41f2-8e5d-79cfc652bcd8" valueTypeId="714f1a57-19b4-4c30-a4d5-c5f4c1ff6a0b"/>
+  </producedTypes>
+  <name>КАНАТ_СтатьяКалькуляцииВспомогательноеСырье</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья калькуляции вспомогательное сырье (КАНАТ)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтатьиКалькуляции</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

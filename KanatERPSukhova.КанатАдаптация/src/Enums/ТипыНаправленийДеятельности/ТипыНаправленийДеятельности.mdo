@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="95406718-91df-456e-93fc-ededab0dcfb8" extendedConfigurationObject="c48660c5-edbd-4c32-8897-06db07cbe865">
+  <producedTypes>
+    <refType typeId="3296c6e9-4573-40e9-8ed2-12e18fe7c803" valueTypeId="bbfdb2df-49c6-4492-adef-af43189b52a3"/>
+    <listType typeId="07a7e75e-d59e-43aa-a3d8-eadca90363a5" valueTypeId="539fc264-ddc4-4a41-8b9d-5e6b7f96b1d2"/>
+    <managerType typeId="af3a0f02-3d0d-4f5d-aee5-e0764d99ee47" valueTypeId="c9c10e9d-fea1-42a8-af17-ee5ef76f73eb"/>
+  </producedTypes>
+  <name>ТипыНаправленийДеятельности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="44330567-ad29-4e90-9707-e7cb6ca0acc1" extendedConfigurationObject="c187a341-c4b3-44aa-aab0-1360e9444df6">
+    <name>ГосударственныйКонтракт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="aa281091-9bc1-4b39-ab2e-3ff283c7c070" extendedConfigurationObject="58686353-1d16-4f22-bcab-35265a7b5744">
+    <name>КонтрактГОЗ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6062435-1fbe-42c3-9afb-840f101106fe">
+  <producedTypes>
+    <objectType typeId="2f16e4f2-1036-449f-b5da-c57da0850b92" valueTypeId="bf3101bd-9442-40fd-b404-50e11a89e9ae"/>
+    <managerType typeId="de697070-398b-418e-87a7-b1ef664d9a70" valueTypeId="f5f1e9db-55d2-4e53-99b8-1d2a9883d3c3"/>
+  </producedTypes>
+  <name>КАНАТ_ОтчетГособоронзаказПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о реализации по гособоронзаказам за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТ_ОтчетГособоронзаказПериод.Form.Форма</defaultForm>
+  <forms uuid="2f5f0b8a-f1a5-498e-ace7-66935973ce59">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="dbd0c3dd-67d5-421d-a958-47f1bb15b4d1">
+    <name>КАНАТ_ПФ_РеализацияГособоронЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>КАНАТ п ф реализация гособорон заказ</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

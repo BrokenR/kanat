@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1420d813-3571-4399-9f2a-ff8bbe53b469" extendedConfigurationObject="545815ed-aef9-41ce-93e4-8bbe4895c3db">
+  <producedTypes>
+    <refType typeId="522af54d-0d8b-40fd-9dbd-270246e4a622" valueTypeId="43d7dfa0-2589-4a5d-85ae-62b12e8713c5"/>
+    <listType typeId="63dcff12-e629-49bd-bc45-8e7ebb950bbb" valueTypeId="1ac136ff-d162-40c5-9657-feed8996bf1f"/>
+    <managerType typeId="eea9ab5e-fd57-4ff5-9df1-f701116f499e" valueTypeId="b6c84b40-0e13-489c-b484-6c51b1896dea"/>
+  </producedTypes>
+  <name>РаспределениеЗапасовСостояния</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="08800508-d6b2-4393-953f-56652c5c67f0" extendedConfigurationObject="9aaf3c33-fa09-46b0-a070-7cebf529de9c">
+    <name>ОбеспеченНаСкладе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b096cfad-4448-46a2-b6c0-0887b9be54a2" extendedConfigurationObject="47d10a43-5556-4259-bde6-880106968b77">
+    <name>ОстатокНаСкладе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

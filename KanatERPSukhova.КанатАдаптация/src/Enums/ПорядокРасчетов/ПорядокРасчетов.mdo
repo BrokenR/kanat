@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bbab3cab-6d4a-4f84-80bd-bab78dd6f326" extendedConfigurationObject="9b333cc3-56b6-4b71-8111-6ac5626fa947">
+  <producedTypes>
+    <refType typeId="0423f48b-25ee-42a4-ae20-ebf0ae7030bd" valueTypeId="1770a8fb-b2b2-4835-a719-842af3dcbe23"/>
+    <listType typeId="772ea96a-5b24-42fa-a435-30cdc1ca8399" valueTypeId="af73ff53-bb4e-4721-9199-27a3f41fab2d"/>
+    <managerType typeId="2665fca1-41db-4d1c-9387-26b763f50118" valueTypeId="034771ab-cffd-461b-8f6a-5f925e15a35e"/>
+  </producedTypes>
+  <name>ПорядокРасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="3209e9bc-7a6f-41e0-b3ad-6d2ff3b0589c" extendedConfigurationObject="21eeb128-c7c8-4670-a06f-a0e920da31af">
+    <name>ПоНакладным</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="fc908d91-f1a8-4154-a963-1bc7f329c6bf" extendedConfigurationObject="27ca6d68-e67a-4889-9637-02a127ea6bb7">
+    <name>ПоЗаказам</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3e248499-8bb0-4d3c-85fb-51b1264b62d6" extendedConfigurationObject="4f954f84-d9f9-4d34-8b96-cd90db36a2c4">
+    <name>ПоДоговорамНакладным</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="464575b4-7192-42aa-b90c-6c983c1bb4cf" extendedConfigurationObject="68be4e2f-917b-4f18-80e2-5f8f3c83a252">
+    <name>ПоЗаказамНакладным</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="0fc7f93d-f601-4dae-bf31-abbb0247d197" extendedConfigurationObject="351f3b97-ac90-4e79-9d41-cdc11138aa2f">
+    <name>ПоДоговорамКонтрагентов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

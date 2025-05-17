@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef2b0614-8d12-43ac-83e9-1e25a298cb00">
+  <producedTypes>
+    <objectType typeId="c0990e16-2928-42ca-a62e-69a1ec167252" valueTypeId="d91ef0ac-15ee-483c-bdab-66f2a0e0d64a"/>
+    <managerType typeId="2b3dcff1-2aa8-4ff4-90c9-8a19407ae354" valueTypeId="ef0303be-d47f-46cc-a601-2252ba414782"/>
+  </producedTypes>
+  <name>КАНАТ_ПоступлениеДСПоГосконтракту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление ДС по госконтракту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТ_ПоступлениеДСПоГосконтракту.Form.Форма</defaultForm>
+  <forms uuid="9eb9bb51-f79e-4b03-9cdc-a172069bf04a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b27cc924-9d6a-4cc7-96e0-2adf8a588d00">
+    <name>КАНАТ_ПоступлениеДСПоГосКонтракту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление ДС по гос контракту</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

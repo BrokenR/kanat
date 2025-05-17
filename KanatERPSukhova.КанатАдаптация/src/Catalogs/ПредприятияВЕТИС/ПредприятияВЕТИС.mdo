@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d78d2920-a24f-4233-8b37-9818451dfc85" extendedConfigurationObject="1f8b655c-6850-4a8a-afe1-7a11031e8616">
+  <producedTypes>
+    <objectType typeId="1aee9c32-116b-4769-890a-7db7b013c20b" valueTypeId="1d5be6ed-c47d-4766-9557-bb904ed63ad9"/>
+    <refType typeId="e20133a5-e072-4c2e-9af0-71c985eed041" valueTypeId="a40ce487-d588-4142-a114-b2baff225b20"/>
+    <selectionType typeId="489f7dcc-493a-4e34-9b0e-7244295df17d" valueTypeId="3c1b29a0-baf9-4bc9-b363-a1e483663d87"/>
+    <listType typeId="a627a855-4b04-4436-909d-ca111d04d386" valueTypeId="e48c7b5f-26a7-4864-950f-751dd8b1bdb7"/>
+    <managerType typeId="39257518-ebd7-4d5a-8931-0004c760e243" valueTypeId="62ac2808-2fbb-444b-9795-c2b6973febe7"/>
+  </producedTypes>
+  <name>ПредприятияВЕТИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c680d001-6499-4a64-8f7e-7d5b6fe08160">
+  <producedTypes>
+    <objectType typeId="c079eb41-095c-459f-9f6e-929b681d15a4" valueTypeId="86088300-2cb0-465a-b878-c0d4a9818e78"/>
+    <managerType typeId="d1bd1264-5295-4837-a26d-e60101629920" valueTypeId="4ca7338d-e4af-45e2-a749-e87d69b0986e"/>
+  </producedTypes>
+  <name>КАНАТКач_ОтчетСетематериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по сетематериалам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ОтчетСетематериалы.Form.Форма</defaultForm>
+  <forms uuid="5c8a83a2-e3a7-4e3c-9967-f48434769264">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="325835ce-aa0f-4fb6-99b0-11e6dde84589">
+    <name>ПФ_MXL_ОтчетСетематериалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет сетематериалы</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

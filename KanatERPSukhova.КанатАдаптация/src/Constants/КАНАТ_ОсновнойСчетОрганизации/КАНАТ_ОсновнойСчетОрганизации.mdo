@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26f57312-2418-4aa3-a7d2-63e49cfebb02">
+  <producedTypes>
+    <managerType typeId="77e6bcb8-c90f-462e-a4df-615e73485302" valueTypeId="5958f60d-4dd6-4418-9be0-54b5c96dbb05"/>
+    <valueManagerType typeId="ad43ae5f-43be-491a-a83d-27c115f5d6d3" valueTypeId="8c517887-690f-41cf-a9d9-959bf2308063"/>
+    <valueKeyType typeId="50eafd83-6d88-40a0-8a2f-0ab7b2f70aa4" valueTypeId="cf53a9e2-55f3-4caf-ac35-990ee260d735"/>
+  </producedTypes>
+  <name>КАНАТ_ОсновнойСчетОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной счет организации</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.БанковскиеСчетаОрганизаций</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

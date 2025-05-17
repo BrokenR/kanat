@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="612fd972-6e0b-4c4c-8c92-30724770d5bb">
+  <name>КАНАТ_УправлениеКачеством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление качеством</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КАНАТ_Сертификаты</content>
+  <content>Catalog.КАНАТ_НТДПоказатели</content>
+  <content>Catalog.КАНАТ_НТДРазмерности</content>
+  <content>Catalog.КАНАТ_НТДНоменклатуры</content>
+  <content>Catalog.КАНАТ_ВидыПродукцииКонтрольКачества</content>
+  <content>Catalog.КАНАТ_ПрограммаИМетодикаИспытаний</content>
+  <content>Document.КАНАТ_РезультатИспытаний</content>
+  <content>InformationRegister.КАНАТКач_СоответствиеПоказателейНТДКолонкамОтчетов</content>
+  <content>DataProcessor.КАНАТКач_ГодовойКвартальныйОтчет</content>
+  <content>CommonCommand.КАНАТ_ОтчетПоИспытаниямГотовойПродукцииОбщий</content>
+  <content>CommonCommand.КАНАТ_ОтчетПоИспытаниямГотовойПродукцииЦех</content>
+  <content>CommonCommand.КАНАТ_ОтчетКанатыДляЛазания</content>
+  <content>CommonCommand.КАНАТ_ОтчетПетлиСтраховочныеАрамидные</content>
+  <content>CommonCommand.КАНАТ_ОтчетСтропы</content>
+  <content>CommonCommand.КАНАТ_ОтчетПолуфабрикаты</content>
+  <content>CommonCommand.КАНАТ_ОтчетНитиSisol</content>
+  <content>CommonCommand.КАНАТ_ОтчетПоИспытаниямГотовойПродукцииСДатой</content>
+  <content>CommonCommand.КАНАТ_ОтчетНитиSisolСДатами</content>
+  <content>CommonCommand.КАНАТ_ОтчетСетематериалы</content>
+  <content>CommonCommand.КАНАТ_ОтчетВеревкиСтраховочноСпасательные</content>
+  <content>Document.КАНАТ_СертификатКачества</content>
+  <subsystems>КАНАТКач_НТД</subsystems>
+</mdclass:Subsystem>

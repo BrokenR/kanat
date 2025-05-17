@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4c53b5a4-e1fa-4dbb-8e22-82df5b66c670" extendedConfigurationObject="92d7cba0-7873-47d5-9b94-61cc91a45609">
+  <producedTypes>
+    <objectType typeId="43ac239c-8ef5-409b-a588-31b9bfe81256" valueTypeId="8f156e51-f57d-4286-9546-879b32749cca"/>
+    <refType typeId="3eb7050e-dceb-4deb-97d0-e588bf4413ba" valueTypeId="f6a2f4aa-aa97-47bd-bd68-9992f99e6fb2"/>
+    <selectionType typeId="c1f5de12-168f-4eec-8749-7e6610bff0b9" valueTypeId="826ce215-9a2a-4047-88e4-bf587dac91e1"/>
+    <listType typeId="51033ef4-0e10-4179-81f3-6721b272d51d" valueTypeId="483a8154-1c3f-499b-85bd-a07f26e111de"/>
+    <managerType typeId="21de3f15-bc48-4b20-91da-fd863ed5a083" valueTypeId="ce528980-f6ab-4ad8-9479-c54f02a7f0d8"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="068f891c-8b8f-4691-9372-bab79b1e43ee" extendedConfigurationObject="f20201ce-88a2-4584-a9c7-ac67fe446cbc">
+    <name>ФИО</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

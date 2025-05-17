@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b53b505d-0a31-497e-b2f7-f23f2097a02e">
+  <producedTypes>
+    <objectType typeId="cafd005d-a4c4-4a6d-afa0-7793b825d541" valueTypeId="a61885c7-62ab-4fa8-8517-6000d7abe22c"/>
+    <managerType typeId="d4907aac-e369-45e9-935e-00bf59d01a1e" valueTypeId="0fc65b87-7076-42fd-8623-c8b14d7df7d8"/>
+  </producedTypes>
+  <name>КАНАТКач_ПечатьРезультатИспытания</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАНАТКач печать результат испытания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="a605c49d-a4e6-4e25-8e97-7c435e5cf7f5">
+    <name>ПФ_MXL_ПротоколРезультатовИспытаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL протокол результатов испытаний</value>
+    </synonym>
+  </templates>
+  <templates uuid="4281454f-a190-481d-b328-b5ec379ef2ec">
+    <name>ПФ_MXL_ПротоколРезультатовИспытанийДляМорскогоРегистра</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL протокол результатов испытаний для морского регистра</value>
+    </synonym>
+  </templates>
+  <templates uuid="6f7916c6-5e88-4808-a98f-d80b0b72d385">
+    <name>ПФ_MXL_АктОтбораОбразцов</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL акт отбора образцов</value>
+    </synonym>
+  </templates>
+  <templates uuid="032a5215-33ac-4088-ad28-efb5d89a57a9">
+    <name>ПФ_MXL_СертификатКачества</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL сертификат качества</value>
+    </synonym>
+  </templates>
+  <templates uuid="a500e9b6-6c47-413c-a424-0b8aef4af245">
+    <name>ПФ_MXL_СертификатКачестваМЧС</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL сертификат качества МЧС</value>
+    </synonym>
+  </templates>
+  <templates uuid="e02a8135-b511-49a9-b914-aee9f3e2a82d">
+    <name>ПФ_MXL_СертификатКачестваБезМЧС</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL сертификат качества без МЧС</value>
+    </synonym>
+  </templates>
+  <templates uuid="90eaf19c-d95b-4a08-96b0-7315776630cd">
+    <name>ПФ_MXL_СертификатКачестваРМРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL сертификат качества РМРС</value>
+    </synonym>
+  </templates>
+  <templates uuid="1dc5b55f-9358-4d6f-868b-45109bfc0a64">
+    <name>ПФ_MXL_СертификатКачестваРРР</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL сертификат качества РРР</value>
+    </synonym>
+  </templates>
+  <templates uuid="71dbcde7-677e-4df9-870f-075b4c2105a5">
+    <name>ПФ_MXL_СертификатКачестваРКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL сертификат качества РКО</value>
+    </synonym>
+  </templates>
+  <templates uuid="828f18d9-df86-4cc6-a301-1fb4c34d11ce">
+    <name>ПФ_MXL_СертификатКачестваСетематериалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL сертификат качества сетематериалы</value>
+    </synonym>
+  </templates>
+  <templates uuid="5acc381d-0e1d-4f3a-8c69-b503bf115960">
+    <name>ПФ_MXL_МорскойРегистрСудоходства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Морской регистр судоходства</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

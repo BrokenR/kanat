@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1940e1c-1c90-494d-bd5e-862a817b4943">
+  <producedTypes>
+    <objectType typeId="a2e72f92-63a9-4b9d-84c0-4f922f2e3f39" valueTypeId="5b1baecd-8982-43c0-8450-1f0199ee9b0e"/>
+    <managerType typeId="f4a3b0bf-a038-4bf9-ab64-110e238563c0" valueTypeId="ebf617c9-d250-45a1-a0aa-ec88bb884340"/>
+  </producedTypes>
+  <name>КАНАТ_ПечатьСпецификацииЗаказКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="4aabd00d-73ef-47bb-b10d-496b757360b2">
+    <name>ПФ_MXL_ПечатьСпецификакии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать спецификакии</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

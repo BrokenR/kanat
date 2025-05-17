@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cfa9bd1-b1b1-49af-873e-25ea6a9ac092">
+  <producedTypes>
+    <objectType typeId="63a815e7-e6a8-4eb0-9738-d82a28e9718c" valueTypeId="65170b0e-c5b6-4838-b4d2-7d93c18a58b8"/>
+    <managerType typeId="b2e96d5e-9e5e-4e79-96fe-1dfd3560f7fa" valueTypeId="eda8d3d4-2be3-4b9b-b6a1-4dbb88859397"/>
+  </producedTypes>
+  <name>КАНАТ_ПечатьПропускНаВъездВыезд</name>
+  <synonym>
+    <key>ru</key>
+    <value>КАНАТ печать пропуск на въезд выезд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="9ce89c12-b2dc-42f2-a0fb-15c45c73b2c0">
+    <name>ПФ_MXL_ПечатьПропускНаВъезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропуск на въезд</value>
+    </synonym>
+  </templates>
+  <templates uuid="bb0c87f0-27e9-4591-b2c8-eb92d7f2c005">
+    <name>ПФ_MXL_ПечатьПропускНаВыезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL печать пропуск на выезд</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

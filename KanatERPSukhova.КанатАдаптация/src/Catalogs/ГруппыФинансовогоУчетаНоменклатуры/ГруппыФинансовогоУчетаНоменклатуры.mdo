@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49c94601-1848-4a94-b234-ed1082b46b78" extendedConfigurationObject="efb31464-78f7-4b2c-935a-eed8c7740ac0">
+  <producedTypes>
+    <objectType typeId="729904bb-b19b-40a0-ac29-b781d58b1170" valueTypeId="05b9b67d-8a62-4042-ba0e-41a6c99b9a45"/>
+    <refType typeId="0f170b17-7cd8-43a2-816e-376793861bba" valueTypeId="f041ec25-60ca-4f77-80c1-cc6ecd62ffd8"/>
+    <selectionType typeId="35d6b65c-abcd-424a-8fb9-10e0465cb368" valueTypeId="be89476f-0a30-4b42-81e1-1f1c1160817e"/>
+    <listType typeId="dd08f734-fb0b-438b-a8c8-1c94e0b58f44" valueTypeId="f37c682b-9870-4b68-a727-db3f757e760a"/>
+    <managerType typeId="b54df9e9-7850-4a32-9d76-f4d1875adcdf" valueTypeId="eaac1639-2678-4ebc-b6ea-f887aa7ad0e2"/>
+  </producedTypes>
+  <name>ГруппыФинансовогоУчетаНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="2a58e64a-e97c-4d4e-a506-676a221e32c3">
+    <name>КАНАТ_ГруппаФинансовогоУчетаВспомогательногоСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа финансового учета вспомогательного сырья (КАНАТ)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2f99650a-7bb4-44a7-b939-897d49dbe6bf" extendedConfigurationObject="6296828f-cf7e-4992-9575-e5f07038230a">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

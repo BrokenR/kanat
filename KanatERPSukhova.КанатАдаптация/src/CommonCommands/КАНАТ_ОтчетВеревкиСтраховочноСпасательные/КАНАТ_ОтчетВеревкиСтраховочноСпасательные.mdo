@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b43c025f-61ca-4d43-8aa8-24432caad0df">
+  <name>КАНАТ_ОтчетВеревкиСтраховочноСпасательные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по веревкам страховочно-спасательным</value>
+  </synonym>
+  <group>ActionsPanelReports</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

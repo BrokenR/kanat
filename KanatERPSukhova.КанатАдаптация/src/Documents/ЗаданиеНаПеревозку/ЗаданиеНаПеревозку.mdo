@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6ce0fc31-bd55-4ee0-845d-0691ca6c2d74" extendedConfigurationObject="d371a3f9-8a6a-4f41-8820-d9a12b2d57af">
+  <producedTypes>
+    <objectType typeId="4cd0ff32-12d5-4639-b2d2-2b4884ace0bf" valueTypeId="53ab4f12-610b-4c4e-8985-af61c8d83e60"/>
+    <refType typeId="bbbc7420-ee93-4c33-a2f9-193f7a071f23" valueTypeId="57caed28-36b6-40ad-b43f-bafee9423e78"/>
+    <selectionType typeId="f76548bc-eb68-4b47-b5d5-17798e45d479" valueTypeId="ffdc9462-9396-48f5-b4db-48425d10984c"/>
+    <listType typeId="82a6b63f-2b92-4139-9feb-466e925483da" valueTypeId="71e22858-d3b2-49a1-bf18-f5bc6f1bff14"/>
+    <managerType typeId="d9f166bc-43ec-45db-8f38-209f82967e76" valueTypeId="d090dd88-bcde-45fe-b8d5-78d4bb113f9b"/>
+  </producedTypes>
+  <name>ЗаданиеНаПеревозку</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="68d39a5d-aaf6-439b-ba49-da306d8f5536" extendedConfigurationObject="2d7bd583-5ecf-4d62-87ae-3cb6ac4ef969">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="ace1042b-fbff-4f58-b7fb-2395ccef9faa">
+    <name>КАНАТ_ПФ_MXL_МаршрутныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрутный лист по заданию на перевозку</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Operation sheet for itinerary</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

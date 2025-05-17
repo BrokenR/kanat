@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c76d22b-502e-4ebe-afb7-574d744d52b8">
+  <producedTypes>
+    <objectType typeId="721ad17c-5b40-49ee-baea-860f749cfdb7" valueTypeId="0222d3f3-d266-419b-b018-f3a69f990631"/>
+    <managerType typeId="a3856eb2-1352-4747-85aa-f66feadc5cf1" valueTypeId="28b4559a-1f1e-4652-92ed-b8ab8da2e105"/>
+  </producedTypes>
+  <name>КАНАТКач_ОтчетНитиSisolСДатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по нитям ПП с экструзионной линии ф. Sisal с датами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КАНАТКач_ОтчетНитиSisolСДатами.Form.Форма</defaultForm>
+  <forms uuid="5e27af0d-b017-49f3-a094-01e730fe93af">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="71f6fd81-224b-4d20-9b70-ba1ba2a61d7f">
+    <name>ПФ_MXL_ОтчетНитиSisol</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет нити sisol</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

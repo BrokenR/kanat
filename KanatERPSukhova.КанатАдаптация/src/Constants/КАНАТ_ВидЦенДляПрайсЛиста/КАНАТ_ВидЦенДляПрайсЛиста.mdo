@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb93e6c1-16d5-485f-99d3-85eaada4a0e0">
+  <producedTypes>
+    <managerType typeId="0d652030-f428-471e-8b87-5e6f9c53ae77" valueTypeId="cc47869a-e9d3-40d3-9284-fa790c869ed8"/>
+    <valueManagerType typeId="db762d8d-d3af-4691-a6fe-0c5b87524602" valueTypeId="5598463c-71b6-4b6d-a3bf-5e3529627693"/>
+    <valueKeyType typeId="57a6f9c0-b2aa-4662-9a65-480b41de3ab9" valueTypeId="bdf15872-98e9-4170-abdc-502859b8d3aa"/>
+  </producedTypes>
+  <name>КАНАТ_ВидЦенДляПрайсЛиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид цен для прайс-листа</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыЦен</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

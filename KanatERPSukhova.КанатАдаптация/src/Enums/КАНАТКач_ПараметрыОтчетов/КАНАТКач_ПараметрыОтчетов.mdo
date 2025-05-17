@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd0198fc-0724-4059-8631-071eb6adbcb7">
+  <producedTypes>
+    <refType typeId="c3e5c9e3-a245-435a-98f9-f7cf717275a7" valueTypeId="b1193cf8-e3d7-4e5e-a77c-b63d8afe73e8"/>
+    <listType typeId="cf62d956-946d-4cf0-90d9-32c4e276acd5" valueTypeId="e2f4a923-5b6f-490c-8e16-45171ffc05cd"/>
+    <managerType typeId="ca07ce6e-d1e5-406d-bbf1-37d3c299f93b" valueTypeId="a9fd6177-1b0a-4b98-b84a-c0e43bae8ef3"/>
+  </producedTypes>
+  <name>КАНАТКач_ПараметрыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры отчетов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d0931c78-e22b-4be2-8b49-45f04e7924a8">
+    <name>ВиткиНа1м</name>
+    <synonym>
+      <key>ru</key>
+      <value>Витки на 1м шаг пл., мм крутка, кр/м</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2cdd2295-877a-47bb-b7aa-44eaca3f3a44">
+    <name>ВысотаПлетения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота плетения, мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9faff22-6778-4cc2-88b5-559b933260e2">
+    <name>Диаметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диаметр, мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3256d61d-d89a-4c29-a2e5-35fed6a47fc5">
+    <name>ДлинаКаната</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина каната, м</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4939f485-32c7-4170-b26b-dd269d3c18f1">
+    <name>ДлинаПетли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина петли, мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e08a34b3-e6d3-47d8-9217-f130d91c0136">
+    <name>КВПоРазрывнойНагрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэф. вар. % по разрывной нагрузке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dd91d58-8109-483e-8134-97089b05538e">
+    <name>КВПоШагуЯчеи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэф. вар. % по шагу ячеи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9efde163-9215-4e2a-8a3a-c3bb9f39de50">
+    <name>КоличествоРывковДоРазрыва1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество рывков до разрыва, коэф 1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe2384e2-6520-4e0a-abbd-3f0a1bd1a93c">
+    <name>КоличествоРывковДоРазрыва177</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество рывков до разрыва, коэф 1.77</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce0110ee-8161-4b75-9126-020dd85d1dc4">
+    <name>КоэфУзлования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент узловязания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abb9d49a-1d89-4347-8c12-7115f9177bcc">
+    <name>КоэффициентВариацииCd</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент вариации Cd</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0835a09f-b68f-4046-a1d3-5bd727a5f0ed">
+    <name>КоэффициентВариацииCk</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент вариации Ck</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6e4201a-aa3a-4b4b-a2d0-432de71ccc25">
+    <name>КоэффициентВариацииCp</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент вариации Cp</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36b53839-697a-4ffc-9411-680e3a021dae">
+    <name>КоэффициентВариацииCt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент вариации Ct</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0900b94d-4849-4f9a-9ace-8d0454991ffd">
+    <name>ЛинейнаяПлотность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейная плотность, ктекс, (текс)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08a41d47-5c9e-4c10-86ae-9119faca8fb0">
+    <name>МаксимальнаяСилаРывка03</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная сила рывка, кН, коэф 0.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33a4fc99-e095-40eb-ae34-6ae940fde3c8">
+    <name>МаксимальнаяСилаРывка177</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная сила рывка, кН, коэф 1.77</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aed334de-9175-4334-8f5f-65465f3fff97">
+    <name>Масса1м</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса 1м, г</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb123155-2bd0-4455-b118-0c4d4b362fb9">
+    <name>МассаОплетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса оплетки, %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="938799c4-c808-49c2-a88f-eae1567b0ece">
+    <name>МассаПетли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса петли, г</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3cc49cf8-def3-404e-b8d6-8529670d56d2">
+    <name>МассаСердечника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса сердечника, %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9a3b3fd-896b-4331-a1a9-c3aeb72a2f1d">
+    <name>МассаСтропа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса стропа, г</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dccddce6-0449-4728-b3fa-721af10450e2">
+    <name>НадежностьКрепленияКанатаL1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надежность крепления каната (L1)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0d8b558-1c13-4f61-8482-9717a1b97939">
+    <name>НадежностьКрепленияКанатаL2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надежность крепления каната (L2)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8452864f-ebab-4cc0-bf7a-40ce57867cbe">
+    <name>НомЛинПлотностьНити</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ном. лин. плотность нити, текс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="095860d9-d6be-4db5-9f52-518a981d2bd5">
+    <name>ОтносительноеУдлинениеПриНагрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Относительное удлинение при нагрузке 100 мгс, %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f021304-6a63-4cac-b57c-c798446a7a10">
+    <name>ОтносительноеУдлинениеПриНагрузкеСГС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Относительное удлинение при нагрузке, соответствующей грузоподъемности стропа, %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9aaf7933-3c80-4c1d-941f-39bcea54ae87">
+    <name>ПодъемнаяПотопляющаяСила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подъемная (потопляющая) сила, cH</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54482f01-59c9-46bf-bf44-4ad578471bb9">
+    <name>РабочаяДлинаСтропа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая длина стропа, мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb54d86b-590a-4b97-a3a3-3d843cdd78a4">
+    <name>РазрывнаяНагрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрывная нагрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e27424f-3399-49b5-b088-c62c9578488f">
+    <name>РасходНиткиНаУзел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход нитки на узел, мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="724ab1b5-cb19-4183-9b07-3d89bc7e53f5">
+    <name>СдвигОплетки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдвиг оплетки относительно сердечника, мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9441fab6-cae5-4d44-af5c-83f40a0c16a4">
+    <name>УдельнаяРазрывнаяНагрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удельная разрывная нагрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f01cfad-80ec-46ff-9472-4759fe2b7330">
+    <name>Удлинение75</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удлинение, при 75%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49d9f154-3cb0-4d6c-802e-e4a69ab5abb1">
+    <name>УдлинениеПодНагрузкой50150</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удлинение под нагрузкой %, 50/150 кг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9ef99ff-7041-4553-942f-4ffd1495a7cb">
+    <name>УдлинениеПодНагрузкой80</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удлинение под нагрузкой %, 80 кг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bceec2d4-0699-490d-947a-518fb901fe23">
+    <name>УдлинениеПриРазрыве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удлинение при разрыве</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1caa4dd-9105-4dfe-a3a6-e0e5655ac2f4">
+    <name>Усадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Усадка, %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adc42395-a443-460f-b54f-b56eb4c9fa15">
+    <name>УсадкаТехнологическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Усадка технологическая, %</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83d8cbed-14ec-4741-b567-796f0a144b79">
+    <name>УстойчивостьВеревкиСУзлом8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устойчивость веревки с узлом &quot;8&quot; на концах к статической нагрузке, кН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7496d7df-a7f7-413a-8d16-085681a5d5f6">
+    <name>ФабричныйРазмерЯчеи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фабричный размер ячеи, мм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="143044e9-6a05-4829-9a6d-c7db2a27c8eb">
+    <name>ФактЛинПлотностьНитиMinMax</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт. лин. плотность нити, текс, min/max</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7a388b2-9670-4617-b944-66cba2e2e8b2">
+    <name>ФактЛинПлотностьНитиСР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт. лин. плотность нити, текс,  ср.</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e182184-2785-4bc7-98c7-e5f6cac2e845">
+    <name>ЧислоВитковНа1м</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число витков на 1м, в/м; шаг плетения, мм; крутка, кр/м</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b13e584-c3fc-4c44-8a7b-f2fca61a85f1">
+    <name>МаксимальнаяСилаРывка178</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная сила рывка, кН, коэф 0.3</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
