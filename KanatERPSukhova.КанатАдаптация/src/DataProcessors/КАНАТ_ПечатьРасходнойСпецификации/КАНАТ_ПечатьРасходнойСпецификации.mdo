@@ -10,7 +10,7 @@
     <value>Печать расходной спецификации</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <templates uuid="0fcb87f2-55fc-43f7-bb66-2a0cb345d592">
+  <templates uuid="67eeae54-f717-44ed-a86b-b780bb1eb576">
     <name>ПФ_MXL_ПечатьРасходнойСпецификакии</name>
     <synonym>
       <key>ru</key>

@@ -2645,46 +2645,6 @@
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
-          <name>НадписьЕстьОтборПолитикиПоУчетуОстатковПоСериямЕстьОрдерныеСкладыВЕТИС</name>
-          <id>1833</id>
-          <title>
-            <key>ru</key>
-            <value>Для этого вида номенклатуры можно выбирать &lt;b>&lt;colorstyle -16>только &lt;/>&lt;/>те политики учета серий, которые предусматривают учет остатков по сериям. При этом, если склад ордерный на отгрузку или на поступление, то политика должна предусматривать учет себестоимости по сериям.</value>
-          </title>
-          <title>
-            <key>en</key>
-            <value>For this kind of items you can choose &lt;b>&lt;colorstyle -16>only &lt;/>&lt;/>those batch accounting policies, which include balance accounting by batch. At the same time, if the warehouse is advanced for shipment or receiving, then the policy shall imply cost accounting by batch.</value>
-          </title>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>НадписьЕстьОтборПолитикиПоУчетуОстатковПоСериямЕстьОрдерныеСкладыВЕТИСРасширеннаяПодсказка</name>
-            <id>1835</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>НадписьЕстьОтборПолитикиПоУчетуОстатковПоСериямЕстьОрдерныеСкладыВЕТИСКонтекстноеМеню</name>
-            <id>1834</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <formatted>true</formatted>
-          <type>Label</type>
-          <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.ПоясняющийТекст</color>
-          </textColor>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </items>
-        <items xsi:type="form:Decoration">
           <name>НадписьЕстьОтборПоТипуПолитики</name>
           <id>1475</id>
           <title>
@@ -11751,6 +11711,45 @@ It is recommended that you enable the setting for the attributes that have the s
                   <contextMenu>
                     <name>ОблагаетсяНДСУПокупателяКонтекстноеМеню</name>
                     <id>1780</id>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>CheckBoxField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+                </items>
+                <items xsi:type="form:FormField">
+                  <name>ЗапрещенаПродажаЧерезПатент</name>
+                  <id>2088</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Номенклатура с пустым КВПД не подпадает под патентную систему налогообложения</value>
+                  </title>
+                  <title>
+                    <key>en</key>
+                    <value>Items with empty kinds of business activity classifier are not subject to the patent taxation system</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <titleLocation>Right</titleLocation>
+                  <extendedTooltip>
+                    <name>ЗапрещенаПродажаЧерезПатентРасширеннаяПодсказка</name>
+                    <id>2090</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ЗапрещенаПродажаЧерезПатентКонтекстноеМеню</name>
+                    <id>2089</id>
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>CheckBoxField</type>

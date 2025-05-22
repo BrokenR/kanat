@@ -262,7 +262,7 @@
             </title>
             <title>
               <key>en</key>
-              <value>Put</value>
+              <value>Wareroom</value>
             </title>
             <extendedTooltip>
               <name>ГруппаПомещениеExtendedTooltip</name>
@@ -1212,7 +1212,7 @@
                 </presentation>
                 <presentation>
                   <key>en</key>
-                  <value>By colli</value>
+                  <value>By cargo</value>
                 </presentation>
                 <value xsi:type="core:NumberValue">
                   <value>0</value>
@@ -1316,6 +1316,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНомерСтрокиРасширеннаяПодсказка</name>
             <id>401</id>
@@ -3560,7 +3563,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>&lt;colorstyle -16>Colli that require processing were picked.&lt;/> &lt;link СнятьОтбор>Remove filter&lt;/></value>
+                <value>&lt;colorstyle -16>Cargo packagings that require processing were picked.&lt;/> &lt;link СнятьОтбор>Remove filter&lt;/></value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3719,7 +3722,7 @@
           </title>
           <title>
             <key>en</key>
-            <value>Total in order</value>
+            <value>Goods receipt total</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4631,7 +4634,7 @@
                   </toolTip>
                   <toolTip>
                     <key>en</key>
-                    <value>List of packages group standard commands</value>
+                    <value>List of packaging units group standard commands</value>
                   </toolTip>
                   <extendedTooltip>
                     <name>СписокШтрихКодовГруппаСтандартныеКомандыExtendedTooltip</name>
@@ -4755,6 +4758,9 @@
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
               <enableStartDrag>true</enableStartDrag>
+              <rowPictureDataPath xsi:type="form:DataPath">
+                <segments>СписокШтрихКодов.DefaultPicture</segments>
+              </rowPictureDataPath>
               <extInfo xsi:type="form:DynamicListTableExtInfo">
                 <autoRefreshPeriod>60</autoRefreshPeriod>
                 <period>
@@ -4810,7 +4816,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>List of packages</value>
+                <value>List of packaging units</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4828,7 +4834,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Package</value>
+                  <value>Packaging unit</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -4946,7 +4952,7 @@
                   </title>
                   <title>
                     <key>en</key>
-                    <value>List of packages group weight volume</value>
+                    <value>List of packaging units group weight volume</value>
                   </title>
                   <extendedTooltip>
                     <name>СписокУпаковокГруппаВесОбъемExtendedTooltip</name>
@@ -5079,7 +5085,7 @@
                   </title>
                   <title>
                     <key>en</key>
-                    <value>List of packages group dimensions</value>
+                    <value>List of packaging units group dimensions</value>
                   </title>
                   <extendedTooltip>
                     <name>СписокУпаковокГруппаРазмерыExtendedTooltip</name>
@@ -5107,7 +5113,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>List of packages group weight dimensions</value>
+                  <value>List of packaging units group weight dimensions</value>
                 </title>
                 <extendedTooltip>
                   <name>СписокУпаковокГруппаВесоГабаритыExtendedTooltip</name>
@@ -5207,7 +5213,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>List of packages group warehouse group</value>
+                  <value>List of packaging units group warehouse group</value>
                 </title>
                 <extendedTooltip>
                   <name>СписокУпаковокГруппаСкладскаяГруппаExtendedTooltip</name>
@@ -5310,7 +5316,7 @@
                   </title>
                   <title>
                     <key>en</key>
-                    <value>List of packages group standard commands</value>
+                    <value>List of packaging units group standard commands</value>
                   </title>
                   <enableContentChange>true</enableContentChange>
                   <extendedTooltip>
@@ -5436,6 +5442,9 @@
               <initialTreeView>ExpandAllLevels</initialTreeView>
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
+              <rowPictureDataPath xsi:type="form:DataPath">
+                <segments>СписокУпаковок.DefaultPicture</segments>
+              </rowPictureDataPath>
               <extInfo xsi:type="form:DynamicListTableExtInfo">
                 <autoRefreshPeriod>60</autoRefreshPeriod>
                 <period>
@@ -5530,7 +5539,7 @@
           </title>
           <title>
             <key>en</key>
-            <value>Additional info package and barcode</value>
+            <value>Additional info packaging unit and barcode</value>
           </title>
           <extendedTooltip>
             <name>ДопИнфУпаковкаИШтрихкодExtendedTooltip</name>
@@ -6103,7 +6112,7 @@
         </title>
         <title>
           <key>en</key>
-          <value>Submenu reports see also</value>
+          <value>See also reports submenu</value>
         </title>
         <toolTip>
           <key>ru</key>
@@ -6212,4 +6221,7 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:DocumentFormExtInfo">
+    <repostOnWrite>true</repostOnWrite>
+  </extInfo>
 </form:Form>

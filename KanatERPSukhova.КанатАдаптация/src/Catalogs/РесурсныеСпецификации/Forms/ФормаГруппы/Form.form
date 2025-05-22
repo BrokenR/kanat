@@ -136,4 +136,7 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <useForFoldersAndItems>Folders</useForFoldersAndItems>
+  </extInfo>
 </form:Form>

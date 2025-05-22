@@ -23,7 +23,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НаименованиеExtendedTooltip</name>
+          <name>НаименованиеРасширеннаяПодсказка</name>
           <id>55</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -59,7 +59,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДолжностьПоВизиткеExtendedTooltip</name>
+          <name>ДолжностьПоВизиткеРасширеннаяПодсказка</name>
           <id>56</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -99,7 +99,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ВладелецExtendedTooltip</name>
+            <name>ВладелецРасширеннаяПодсказка</name>
             <id>58</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -138,7 +138,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ДатаРожденияExtendedTooltip</name>
+              <name>ДатаРожденияРасширеннаяПодсказка</name>
               <id>60</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -176,7 +176,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПолExtendedTooltip</name>
+              <name>ПолРасширеннаяПодсказка</name>
               <id>61</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -218,7 +218,7 @@
             <value>Gender date of birth</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаПолДатаРожденияExtendedTooltip</name>
+            <name>ГруппаПолДатаРожденияРасширеннаяПодсказка</name>
             <id>59</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -249,7 +249,7 @@
           <value>Parents</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаРодителиExtendedTooltip</name>
+          <name>ГруппаРодителиРасширеннаяПодсказка</name>
           <id>57</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -286,7 +286,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДатаРегистрацииСвязиExtendedTooltip</name>
+            <name>ДатаРегистрацииСвязиРасширеннаяПодсказка</name>
             <id>63</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -330,7 +330,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДатаПрекращенияСвязиExtendedTooltip</name>
+            <name>ДатаПрекращенияСвязиРасширеннаяПодсказка</name>
             <id>64</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -366,7 +366,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>АвторExtendedTooltip</name>
+            <name>АвторРасширеннаяПодсказка</name>
             <id>65</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -408,7 +408,7 @@
           <value>Contact with partner:</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСвязьСПартнеромExtendedTooltip</name>
+          <name>ГруппаСвязьСПартнеромРасширеннаяПодсказка</name>
           <id>62</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -441,7 +441,7 @@
         <value>Main data</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаОсновныеСведенияExtendedTooltip</name>
+        <name>ГруппаОсновныеСведенияРасширеннаяПодсказка</name>
         <id>54</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -486,7 +486,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РольКонтактногоЛицаExtendedTooltip</name>
+            <name>РольКонтактногоЛицаРасширеннаяПодсказка</name>
             <id>68</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -594,7 +594,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>РолиКонтактногоЛицаВОрганизацииExtendedTooltip</name>
+          <name>РолиКонтактногоЛицаВОрганизацииРасширеннаяПодсказка</name>
           <id>67</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -642,7 +642,7 @@
         <value>Contact person roles</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаОписаниеExtendedTooltip</name>
+        <name>ГруппаОписаниеРасширеннаяПодсказка</name>
         <id>66</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -673,7 +673,7 @@
         <value>More</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаДополнительныеРеквизитыExtendedTooltip</name>
+        <name>ГруппаДополнительныеРеквизитыРасширеннаяПодсказка</name>
         <id>69</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -736,7 +736,7 @@
       </title>
       <enableContentChange>true</enableContentChange>
       <extendedTooltip>
-        <name>ГруппаКонтактнаяИнформацияExtendedTooltip</name>
+        <name>ГруппаКонтактнаяИнформацияРасширеннаяПодсказка</name>
         <id>70</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -764,7 +764,7 @@
         </userVisible>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ДополнительнаяИнформацияExtendedTooltip</name>
+          <name>ДополнительнаяИнформацияРасширеннаяПодсказка</name>
           <id>72</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -807,7 +807,7 @@
         <value>Additional information</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаДополнительнаяИнформацияExtendedTooltip</name>
+        <name>ГруппаДополнительнаяИнформацияРасширеннаяПодсказка</name>
         <id>71</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -836,7 +836,7 @@
       <value>Form pages</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаСтраницыФормыExtendedTooltip</name>
+      <name>ГруппаСтраницыФормыРасширеннаяПодсказка</name>
       <id>53</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -861,7 +861,7 @@
     </userVisible>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
-      <name>КомментарийExtendedTooltip</name>
+      <name>КомментарийРасширеннаяПодсказка</name>
       <id>73</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

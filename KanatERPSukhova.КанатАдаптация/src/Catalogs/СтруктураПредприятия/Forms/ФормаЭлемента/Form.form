@@ -766,4 +766,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

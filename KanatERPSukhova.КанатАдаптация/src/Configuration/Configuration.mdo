@@ -28,7 +28,6 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.26</compatibilityMode>
   <languages uuid="14a3ddb7-3c1f-4674-a91d-3b9276d085a1" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -133,6 +132,8 @@
   <roles>Role.КАНАТ_ЧтениеСправочниковКАНАТ</roles>
   <roles>Role.КАНАТ_ПросмотрСправочниковКАНАТ</roles>
   <roles>Role.КАНАТ_РедактированиеСправочниковКАНАТ</roles>
+  <roles>Role.КАНАТ_ЧтениеБлокиДоговоро</roles>
+  <roles>Role.КАНАТ_ДобавлениеИзменениеБлокиДоговоров</roles>
   <filterCriteria>FilterCriterion.КАНАТ_СвязанныеДокументы</filterCriteria>
   <filterCriteria>FilterCriterion.КАНАТ_СвязанныеДокументыПроизводстваИРеализаций</filterCriteria>
   <commonModules>CommonModule.СтруктураПодчиненностиСлужебный</commonModules>
@@ -152,6 +153,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияУТКлиент</commonModules>
   <commonModules>CommonModule.КАНАТ_События</commonModules>
   <commonModules>CommonModule.ЗагрузкаДанныхИзФайлаПереопределяемый</commonModules>
+  <commonModules>CommonModule.УстановкаЦенСервер</commonModules>
   <eventSubscriptions>EventSubscription.КАНАТ_ЗаписьШКНоменклатуры</eventSubscriptions>
   <definedTypes>DefinedType.Цена</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
@@ -276,6 +278,7 @@
   <documents>Document.ЭтапПроизводства2_2</documents>
   <documents>Document.ЗаданиеНаПеревозку</documents>
   <documents>Document.КАНАТ_СертификатКачества</documents>
+  <documents>Document.ВводОстатковВзаиморасчетов</documents>
   <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
   <enums>Enum.ВариантыВыводаДанныхОТоварномСоставе</enums>
   <enums>Enum.ВариантыОкругления</enums>
@@ -332,6 +335,7 @@
   <enums>Enum.ВариантыПредставленияНаборовВПечатныхФормах</enums>
   <enums>Enum.ВариантыИспользованияХарактеристикНоменклатуры</enums>
   <enums>Enum.ТочностиУказанияСрокаГодности</enums>
+  <enums>Enum.ВариантыПромежуточногоВыпуска</enums>
   <reports>Report.КАНАТ_ОтчетПоГосОборонЗаказамПериод</reports>
   <reports>Report.КАНАТ_ПланФактМатериальныхЗатрат</reports>
   <dataProcessors>DataProcessor.ПечатьСчетовНаОплату</dataProcessors>
@@ -372,6 +376,7 @@
   <informationRegisters>InformationRegister.РаспределениеЗапасов</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ТекущиеКадровыеДанныеСотрудников</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.УдалитьЗаказыКлиентов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КАНАТ_СоответствиеГрупповыхУпаковокСериямНоменклатуры</accumulationRegisters>
 </mdclass:Configuration>

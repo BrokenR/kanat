@@ -1170,7 +1170,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>АдресКартинкиКонтекстноеМенюДобавитьИзображениеExtendedTooltip</name>
+                        <name>АдресКартинкиКонтекстноеМенюДобавитьИзображениеРасширеннаяПодсказка</name>
                         <id>322</id>
                         <type>Label</type>
                         <autoMaxWidth>true</autoMaxWidth>
@@ -1195,7 +1195,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>АдресКартинкиКонтекстноеМенюИзменитьИзображениеExtendedTooltip</name>
+                        <name>АдресКартинкиКонтекстноеМенюИзменитьИзображениеРасширеннаяПодсказка</name>
                         <id>324</id>
                         <type>Label</type>
                         <autoMaxWidth>true</autoMaxWidth>
@@ -1220,7 +1220,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>АдресКартинкиКонтекстноеМенюОчиститьИзображениеExtendedTooltip</name>
+                        <name>АдресКартинкиКонтекстноеМенюОчиститьИзображениеРасширеннаяПодсказка</name>
                         <id>326</id>
                         <type>Label</type>
                         <autoMaxWidth>true</autoMaxWidth>
@@ -1245,7 +1245,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>АдресКартинкиКонтекстноеМенюПросмотретьИзображениеExtendedTooltip</name>
+                        <name>АдресКартинкиКонтекстноеМенюПросмотретьИзображениеРасширеннаяПодсказка</name>
                         <id>328</id>
                         <type>Label</type>
                         <autoMaxWidth>true</autoMaxWidth>
@@ -1270,7 +1270,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>АдресКартинкиКонтекстноеМенюВыбратьКартинкуИзПрисоединенныхФайловExtendedTooltip</name>
+                        <name>АдресКартинкиКонтекстноеМенюВыбратьКартинкуИзПрисоединенныхФайловРасширеннаяПодсказка</name>
                         <id>330</id>
                         <type>Label</type>
                         <autoMaxWidth>true</autoMaxWidth>
@@ -1745,15 +1745,60 @@
               <name>СворачиваемаяГруппаСведенияОПроизводителе</name>
               <id>120</id>
               <items xsi:type="form:FormField">
+                <name>ПроизводительИмпортерКонтрагент</name>
+                <id>355</id>
+                <title>
+                  <key>ru</key>
+                  <value>Производитель, импортер (контрагент)</value>
+                </title>
+                <title>
+                  <key>en</key>
+                  <value>Manufacturer, importer (counterparty)</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ПроизводительИмпортерКонтрагентExtendedTooltip</name>
+                  <id>357</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ПроизводительИмпортерКонтрагентКонтекстноеМеню</name>
+                  <id>356</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
                 <name>Производитель</name>
                 <id>122</id>
                 <title>
                   <key>ru</key>
-                  <value>Производитель</value>
+                  <value>Производитель (бренд)</value>
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Manufacturer</value>
+                  <value>Manufacturer (brand)</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1818,51 +1863,6 @@
                 <contextMenu>
                   <name>МаркаКонтекстноеМеню</name>
                   <id>129</id>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>InputField</type>
-                <editMode>Enter</editMode>
-                <showInHeader>true</showInHeader>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <wrap>true</wrap>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                </extInfo>
-              </items>
-              <items xsi:type="form:FormField">
-                <name>ПроизводительИмпортерКонтрагент</name>
-                <id>355</id>
-                <title>
-                  <key>ru</key>
-                  <value>Производитель (импортер)</value>
-                </title>
-                <title>
-                  <key>en</key>
-                  <value>Manufacturer (importer)</value>
-                </title>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <extendedTooltip>
-                  <name>ПроизводительИмпортерКонтрагентExtendedTooltip</name>
-                  <id>357</id>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>ПроизводительИмпортерКонтрагентКонтекстноеМеню</name>
-                  <id>356</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>InputField</type>
@@ -7669,6 +7669,9 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <dataPath xsi:type="form:DataPath">
+                      <segments>Объект.ДрагоценныеМатериалы.LineNumber</segments>
+                    </dataPath>
                     <extendedTooltip>
                       <name>ДрагоценныеМатериалыНомерСтрокиРасширеннаяПодсказка</name>
                       <id>1515</id>
@@ -8210,12 +8213,22 @@
                   <common>true</common>
                 </userVisible>
                 <titleLocation>Right</titleLocation>
+                <toolTipRepresentation>ShowBottom</toolTipRepresentation>
                 <extendedTooltip>
                   <name>АлкогольнаяПродукцияВоВскрытойТареРасширеннаяПодсказка</name>
                   <id>1478</id>
+                  <title>
+                    <key>ru</key>
+                    <value>учет до вступления в силу приказа Росалкогольрегулирования от 31 мая 2023 г. N 156</value>
+                  </title>
+                  <title>
+                    <key>en</key>
+                    <value>accounting before introduction of order of Federal Service for Alcohol Market Regulation dated May 31, 2023, N 156</value>
+                  </title>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
+                  <horizontalStretch>true</horizontalStretch>
                   <extInfo xsi:type="form:LabelDecorationExtInfo">
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
@@ -9116,6 +9129,45 @@
                   <textColor xsi:type="core:ColorRef">
                     <color>Style.ПоясняющийТекст</color>
                   </textColor>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>КодПоКВПД</name>
+                <id>1553</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>КодПоКВПДРасширеннаяПодсказка</name>
+                  <id>1555</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>КодПоКВПДКонтекстноеМеню</name>
+                  <id>1554</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <width>12</width>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <horizontalStretch>false</horizontalStretch>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">

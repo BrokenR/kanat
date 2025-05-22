@@ -51,9 +51,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Список</segments>
-    </dataPath>
     <defaultItem>true</defaultItem>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
@@ -73,11 +70,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.РольКонтактногоЛица</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>РольКонтактногоЛицаExtendedTooltip</name>
+        <name>РольКонтактногоЛицаРасширеннаяПодсказка</name>
         <id>39</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -123,11 +117,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Description</segments>
+        <segments>Список.Наименование</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -170,10 +164,10 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Owner</segments>
+        <segments>Список.Владелец</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВладелецExtendedTooltip</name>
+        <name>ВладелецРасширеннаяПодсказка</name>
         <id>41</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -208,11 +202,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДолжностьПоВизитке</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>ДолжностьПоВизиткеExtendedTooltip</name>
+        <name>ДолжностьПоВизиткеРасширеннаяПодсказка</name>
         <id>42</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -244,10 +235,10 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Description</segments>
+        <segments>Список.Наименование</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ФизЛицоExtendedTooltip</name>
+        <name>ФизЛицоРасширеннаяПодсказка</name>
         <id>43</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -280,11 +271,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Автор</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>АвторExtendedTooltip</name>
+        <name>АвторРасширеннаяПодсказка</name>
         <id>44</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -317,11 +305,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДатаРегистрацииСвязи</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>ДатаРегистрацииСвязиExtendedTooltip</name>
+        <name>ДатаРегистрацииСвязиРасширеннаяПодсказка</name>
         <id>45</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -355,11 +340,8 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ДатаПрекращенияСвязи</segments>
-      </dataPath>
       <extendedTooltip>
-        <name>ДатаПрекращенияСвязиExtendedTooltip</name>
+        <name>ДатаПрекращенияСвязиРасширеннаяПодсказка</name>
         <id>46</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -396,7 +378,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомментарииExtendedTooltip</name>
+        <name>КомментарииРасширеннаяПодсказка</name>
         <id>47</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -430,10 +412,10 @@
       <enabled>true</enabled>
       <userVisible/>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Ref</segments>
+        <segments>Список.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СсылкаExtendedTooltip</name>
+        <name>СсылкаРасширеннаяПодсказка</name>
         <id>48</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -537,7 +519,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>38</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

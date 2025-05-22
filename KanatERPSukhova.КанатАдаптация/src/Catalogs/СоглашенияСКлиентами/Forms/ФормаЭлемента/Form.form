@@ -33,7 +33,7 @@
               </userVisible>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>НомерExtendedTooltip</name>
+                <name>НомерРасширеннаяПодсказка</name>
                 <id>543</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -78,7 +78,7 @@
               </userVisible>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>ДатаExtendedTooltip</name>
+                <name>ДатаРасширеннаяПодсказка</name>
                 <id>544</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -121,7 +121,7 @@
               <value>Number and date</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаНомерДатаExtendedTooltip</name>
+              <name>ГруппаНомерДатаРасширеннаяПодсказка</name>
               <id>542</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -148,7 +148,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>НаименованиеExtendedTooltip</name>
+              <name>НаименованиеРасширеннаяПодсказка</name>
               <id>545</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -185,7 +185,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ПартнерExtendedTooltip</name>
+              <name>ПартнерРасширеннаяПодсказка</name>
               <id>546</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -230,7 +230,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>КонтрагентExtendedTooltip</name>
+              <name>КонтрагентРасширеннаяПодсказка</name>
               <id>547</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -267,7 +267,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>КонтактноеЛицоExtendedTooltip</name>
+              <name>КонтактноеЛицоРасширеннаяПодсказка</name>
               <id>551</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -313,7 +313,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>СоглашениеExtendedTooltip</name>
+              <name>СоглашениеРасширеннаяПодсказка</name>
               <id>549</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -353,7 +353,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>СегментПартнеровExtendedTooltip</name>
+              <name>СегментПартнеровРасширеннаяПодсказка</name>
               <id>548</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -408,7 +408,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>СегментНоменклатурыExtendedTooltip</name>
+              <name>СегментНоменклатурыРасширеннаяПодсказка</name>
               <id>573</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -466,7 +466,7 @@
             <value>Header left</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаШапкаЛевоExtendedTooltip</name>
+            <name>ГруппаШапкаЛевоРасширеннаяПодсказка</name>
             <id>541</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -497,7 +497,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>СтатусExtendedTooltip</name>
+              <name>СтатусРасширеннаяПодсказка</name>
               <id>553</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -546,7 +546,7 @@
               </userVisible>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>ДатаНачалаДействияExtendedTooltip</name>
+                <name>ДатаНачалаДействияРасширеннаяПодсказка</name>
                 <id>555</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -593,7 +593,7 @@
               </userVisible>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>ДатаОкончанияДействияExtendedTooltip</name>
+                <name>ДатаОкончанияДействияРасширеннаяПодсказка</name>
                 <id>556</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -631,7 +631,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>УстановитьИнтервалExtendedTooltip</name>
+                <name>УстановитьИнтервалРасширеннаяПодсказка</name>
                 <id>557</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -670,7 +670,7 @@
               <value>Validity period</value>
             </toolTip>
             <extendedTooltip>
-              <name>ГруппаПериодДействияExtendedTooltip</name>
+              <name>ГруппаПериодДействияРасширеннаяПодсказка</name>
               <id>554</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -697,7 +697,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ХозяйственнаяОперацияExtendedTooltip</name>
+              <name>ХозяйственнаяОперацияРасширеннаяПодсказка</name>
               <id>558</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -759,7 +759,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ОрганизацияExtendedTooltip</name>
+              <name>ОрганизацияРасширеннаяПодсказка</name>
               <id>550</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -797,7 +797,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>МенеджерExtendedTooltip</name>
+              <name>МенеджерРасширеннаяПодсказка</name>
               <id>656</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -838,7 +838,7 @@
             <value>Header right</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаШапкаПравоExtendedTooltip</name>
+            <name>ГруппаШапкаПравоРасширеннаяПодсказка</name>
             <id>552</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -870,7 +870,7 @@
           <value>Header</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаШапкаExtendedTooltip</name>
+          <name>ГруппаШапкаРасширеннаяПодсказка</name>
           <id>540</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -898,7 +898,7 @@
         </userVisible>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>657</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -992,7 +992,7 @@
                   </userVisible>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ИспользуютсяДоговорыКонтрагентовExtendedTooltip</name>
+                    <name>ИспользуютсяДоговорыКонтрагентовРасширеннаяПодсказка</name>
                     <id>599</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1038,7 +1038,7 @@
                   </userVisible>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>НеИспользуютсяДоговорыКонтрагентовExtendedTooltip</name>
+                    <name>НеИспользуютсяДоговорыКонтрагентовРасширеннаяПодсказка</name>
                     <id>596</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1373,7 +1373,7 @@
                   <strikeout>false</strikeout>
                 </titleFont>
                 <extendedTooltip>
-                  <name>ГруппаДоговорыКонтрагентовПорядокРасчетовExtendedTooltip</name>
+                  <name>ГруппаДоговорыКонтрагентовПорядокРасчетовРасширеннаяПодсказка</name>
                   <id>594</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1440,7 +1440,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>ГрафикОплатыExtendedTooltip</name>
+                    <name>ГрафикОплатыРасширеннаяПодсказка</name>
                     <id>590</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1482,7 +1482,7 @@
                   <value>Help text of payment schedule</value>
                 </title>
                 <extendedTooltip>
-                  <name>ГруппаГрафикОплатыИнформационнаяНадписьExtendedTooltip</name>
+                  <name>ГруппаГрафикОплатыИнформационнаяНадписьРасширеннаяПодсказка</name>
                   <id>586</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1698,7 +1698,7 @@
                 </userVisible>
                 <titleLocation>Left</titleLocation>
                 <extendedTooltip>
-                  <name>СкладExtendedTooltip</name>
+                  <name>СкладРасширеннаяПодсказка</name>
                   <id>569</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1755,7 +1755,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>СрокПоставкиExtendedTooltip</name>
+                    <name>СрокПоставкиРасширеннаяПодсказка</name>
                     <id>571</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1802,7 +1802,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СрокПоставкиДекорацияExtendedTooltip</name>
+                    <name>СрокПоставкиДекорацияРасширеннаяПодсказка</name>
                     <id>572</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1837,7 +1837,7 @@
                   <value>Delivery period</value>
                 </title>
                 <extendedTooltip>
-                  <name>ГруппаСрокПоставкиExtendedTooltip</name>
+                  <name>ГруппаСрокПоставкиРасширеннаяПодсказка</name>
                   <id>570</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2316,7 +2316,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>СпособРасчетаВознагражденияExtendedTooltip</name>
+                    <name>СпособРасчетаВознагражденияРасширеннаяПодсказка</name>
                     <id>575</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2429,7 +2429,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>ПроцентВознагражденияExtendedTooltip</name>
+                    <name>ПроцентВознагражденияРасширеннаяПодсказка</name>
                     <id>577</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2467,7 +2467,7 @@
                   </userVisible>
                   <titleLocation>Right</titleLocation>
                   <extendedTooltip>
-                    <name>УдержатьВознаграждениеExtendedTooltip</name>
+                    <name>УдержатьВознаграждениеРасширеннаяПодсказка</name>
                     <id>578</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2502,7 +2502,7 @@
                   <value>Remuneration percentage</value>
                 </title>
                 <extendedTooltip>
-                  <name>ГруппаПроцентВознагражденияExtendedTooltip</name>
+                  <name>ГруппаПроцентВознагражденияРасширеннаяПодсказка</name>
                   <id>576</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2748,7 +2748,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>ВалютаExtendedTooltip</name>
+                    <name>ВалютаРасширеннаяПодсказка</name>
                     <id>562</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2789,7 +2789,7 @@
                   </userVisible>
                   <titleLocation>Right</titleLocation>
                   <extendedTooltip>
-                    <name>ЦенаВключаетНДСExtendedTooltip</name>
+                    <name>ЦенаВключаетНДСРасширеннаяПодсказка</name>
                     <id>563</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2834,7 +2834,7 @@
                 </title>
                 <horizontalStretch>false</horizontalStretch>
                 <extendedTooltip>
-                  <name>ГруппаВалютаЦенаВключаетНДСExtendedTooltip</name>
+                  <name>ГруппаВалютаЦенаВключаетНДСРасширеннаяПодсказка</name>
                   <id>561</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3277,7 +3277,7 @@
                   </userVisible>
                   <titleLocation>Right</titleLocation>
                   <extendedTooltip>
-                    <name>ОграничиватьРучныеСкидкиExtendedTooltip</name>
+                    <name>ОграничиватьРучныеСкидкиРасширеннаяПодсказка</name>
                     <id>652</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3308,7 +3308,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>ПроцентРучнойСкидкиExtendedTooltip</name>
+                    <name>ПроцентРучнойСкидкиРасширеннаяПодсказка</name>
                     <id>653</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3347,7 +3347,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>ПроцентРучнойНаценкиExtendedTooltip</name>
+                    <name>ПроцентРучнойНаценкиРасширеннаяПодсказка</name>
                     <id>654</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3465,7 +3465,7 @@
                   <value>Discount/markup adjustments</value>
                 </title>
                 <extendedTooltip>
-                  <name>ГруппаРучныеСкидкиНаценкиExtendedTooltip</name>
+                  <name>ГруппаРучныеСкидкиНаценкиРасширеннаяПодсказка</name>
                   <id>651</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3610,7 +3610,7 @@
         </toolTip>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаПараметрыExtendedTooltip</name>
+          <name>ГруппаПараметрыРасширеннаяПодсказка</name>
           <id>567</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3649,7 +3649,7 @@
         <value>Payment terms</value>
       </toolTip>
       <extendedTooltip>
-        <name>СтраницаУсловияПродажExtendedTooltip</name>
+        <name>СтраницаУсловияПродажРасширеннаяПодсказка</name>
         <id>566</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3699,7 +3699,7 @@
                   </userVisible>
                   <titleLocation>Right</titleLocation>
                   <extendedTooltip>
-                    <name>ВозвращатьМногооборотнуюТаруExtendedTooltip</name>
+                    <name>ВозвращатьМногооборотнуюТаруРасширеннаяПодсказка</name>
                     <id>581</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3738,7 +3738,7 @@
                   </userVisible>
                   <titleLocation>Right</titleLocation>
                   <extendedTooltip>
-                    <name>СрокВозвратаМногооборотнойТарыExtendedTooltip</name>
+                    <name>СрокВозвратаМногооборотнойТарыРасширеннаяПодсказка</name>
                     <id>582</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3783,7 +3783,7 @@
                   <value>Return return due date</value>
                 </title>
                 <extendedTooltip>
-                  <name>ГруппаВозвращатьСрокВозвратаExtendedTooltip</name>
+                  <name>ГруппаВозвращатьСрокВозвратаРасширеннаяПодсказка</name>
                   <id>580</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3810,7 +3810,7 @@
                 </userVisible>
                 <titleLocation>Right</titleLocation>
                 <extendedTooltip>
-                  <name>ТребуетсяЗалогЗаТаруExtendedTooltip</name>
+                  <name>ТребуетсяЗалогЗаТаруРасширеннаяПодсказка</name>
                   <id>583</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4172,7 +4172,7 @@
               <strikeout>false</strikeout>
             </titleFont>
             <extendedTooltip>
-              <name>ГруппаТараExtendedTooltip</name>
+              <name>ГруппаТараРасширеннаяПодсказка</name>
               <id>579</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4215,7 +4215,7 @@
                 </userVisible>
                 <titleLocation>Right</titleLocation>
                 <extendedTooltip>
-                  <name>РегулярноеExtendedTooltip</name>
+                  <name>РегулярноеРасширеннаяПодсказка</name>
                   <id>601</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4257,7 +4257,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>СуммаСоглашенияExtendedTooltip</name>
+                    <name>СуммаСоглашенияРасширеннаяПодсказка</name>
                     <id>605</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -4298,7 +4298,7 @@
                   </userVisible>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>СуммаСоглашенияВалютаExtendedTooltip</name>
+                    <name>СуммаСоглашенияВалютаРасширеннаяПодсказка</name>
                     <id>606</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -4338,7 +4338,7 @@
                   <value>Document amount</value>
                 </title>
                 <extendedTooltip>
-                  <name>ГруппаСуммаДокументаExtendedTooltip</name>
+                  <name>ГруппаСуммаДокументаРасширеннаяПодсказка</name>
                   <id>604</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4365,7 +4365,7 @@
                 </userVisible>
                 <titleLocation>Left</titleLocation>
                 <extendedTooltip>
-                  <name>КоличествоПериодовExtendedTooltip</name>
+                  <name>КоличествоПериодовРасширеннаяПодсказка</name>
                   <id>607</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4404,7 +4404,7 @@
                 </userVisible>
                 <titleLocation>Left</titleLocation>
                 <extendedTooltip>
-                  <name>ПериодExtendedTooltip</name>
+                  <name>ПериодРасширеннаяПодсказка</name>
                   <id>608</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4453,7 +4453,7 @@
                 </userVisible>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
-                  <name>ОписаниеРегулярныхУсловийExtendedTooltip</name>
+                  <name>ОписаниеРегулярныхУсловийРасширеннаяПодсказка</name>
                   <id>610</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4610,7 +4610,7 @@
                 </userVisible>
                 <titleLocation>Left</titleLocation>
                 <extendedTooltip>
-                  <name>ГруппаФинансовогоУчетаExtendedTooltip</name>
+                  <name>ГруппаФинансовогоУчетаРасширеннаяПодсказка</name>
                   <id>593</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4839,7 +4839,7 @@
                 <value>Used by sales representatives</value>
               </toolTip>
               <extendedTooltip>
-                <name>ИспользуетсяВРаботеТорговыхПредставителейExtendedTooltip</name>
+                <name>ИспользуетсяВРаботеТорговыхПредставителейРасширеннаяПодсказка</name>
                 <id>613</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -4870,7 +4870,7 @@
               </userVisible>
               <titleLocation>Right</titleLocation>
               <extendedTooltip>
-                <name>ДоступноВнешнимПользователямExtendedTooltip</name>
+                <name>ДоступноВнешнимПользователямРасширеннаяПодсказка</name>
                 <id>614</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -4907,7 +4907,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>СценарийПланированияExtendedTooltip</name>
+                    <name>СценарийПланированияРасширеннаяПодсказка</name>
                     <id>617</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -4945,7 +4945,7 @@
                   </userVisible>
                   <titleLocation>Left</titleLocation>
                   <extendedTooltip>
-                    <name>ВидПланаExtendedTooltip</name>
+                    <name>ВидПланаРасширеннаяПодсказка</name>
                     <id>618</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -4988,7 +4988,7 @@
                   <value>Page purchase plans visible</value>
                 </title>
                 <extendedTooltip>
-                  <name>СтраницаПланыЗакупокВидимыExtendedTooltip</name>
+                  <name>СтраницаПланыЗакупокВидимыРасширеннаяПодсказка</name>
                   <id>616</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -5014,7 +5014,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ДекорацияПланыЗакупокПустаяExtendedTooltip</name>
+                    <name>ДекорацияПланыЗакупокПустаяРасширеннаяПодсказка</name>
                     <id>620</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -5049,7 +5049,7 @@
                   <value>Page purchase plans invisible</value>
                 </title>
                 <extendedTooltip>
-                  <name>СтраницаПланыЗакупокНевидимыExtendedTooltip</name>
+                  <name>СтраницаПланыЗакупокНевидимыРасширеннаяПодсказка</name>
                   <id>619</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -5077,7 +5077,7 @@
                 <value>Pages purchase plans</value>
               </title>
               <extendedTooltip>
-                <name>СтраницыПланыЗакупокExtendedTooltip</name>
+                <name>СтраницыПланыЗакупокРасширеннаяПодсказка</name>
                 <id>615</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -5264,7 +5264,7 @@
           <strikeout>false</strikeout>
         </titleFont>
         <extendedTooltip>
-          <name>ГруппаДополнительныеРеквизитыExtendedTooltip</name>
+          <name>ГруппаДополнительныеРеквизитыРасширеннаяПодсказка</name>
           <id>621</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -5341,8 +5341,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЦеновыеГруппы.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
-            <name>ЦеновыеГруппыНомерСтрокиExtendedTooltip</name>
+            <name>ЦеновыеГруппыНомерСтрокиРасширеннаяПодсказка</name>
             <id>625</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5380,7 +5383,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЦеновыеГруппыЦеноваяГруппаExtendedTooltip</name>
+            <name>ЦеновыеГруппыЦеноваяГруппаРасширеннаяПодсказка</name>
             <id>626</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5419,7 +5422,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЦеновыеГруппыВидЦенExtendedTooltip</name>
+            <name>ЦеновыеГруппыВидЦенРасширеннаяПодсказка</name>
             <id>627</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5457,7 +5460,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЦеновыеГруппыСрокПоставкиExtendedTooltip</name>
+            <name>ЦеновыеГруппыСрокПоставкиРасширеннаяПодсказка</name>
             <id>628</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5496,7 +5499,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЦеновыеГруппыПроцентРучнойСкидкиExtendedTooltip</name>
+            <name>ЦеновыеГруппыПроцентРучнойСкидкиРасширеннаяПодсказка</name>
             <id>629</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5533,7 +5536,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЦеновыеГруппыПроцентРучнойНаценкиExtendedTooltip</name>
+            <name>ЦеновыеГруппыПроцентРучнойНаценкиРасширеннаяПодсказка</name>
             <id>630</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5574,7 +5577,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ЦеновыеГруппыЗаполнитьВидЦенВыделенныхСтрокЦеновыеГруппыExtendedTooltip</name>
+              <name>ЦеновыеГруппыЗаполнитьВидЦенВыделенныхСтрокЦеновыеГруппыРасширеннаяПодсказка</name>
               <id>623</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -5666,7 +5669,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ЦеновыеГруппыExtendedTooltip</name>
+          <name>ЦеновыеГруппыРасширеннаяПодсказка</name>
           <id>624</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -5721,7 +5724,7 @@
         <value>Specify by price groups</value>
       </toolTip>
       <extendedTooltip>
-        <name>СтраницаУточнениеПоЦеновымГруппамExtendedTooltip</name>
+        <name>СтраницаУточнениеПоЦеновымГруппамРасширеннаяПодсказка</name>
         <id>622</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -5773,8 +5776,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
-            <name>ТоварыНомерСтрокиExtendedTooltip</name>
+            <name>ТоварыНомерСтрокиРасширеннаяПодсказка</name>
             <id>635</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5812,7 +5818,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТоварыНоменклатураExtendedTooltip</name>
+            <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
             <id>636</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5850,7 +5856,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТоварыХарактеристикаExtendedTooltip</name>
+            <name>ТоварыХарактеристикаРасширеннаяПодсказка</name>
             <id>637</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -5899,7 +5905,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТоварыУпаковкаExtendedTooltip</name>
+              <name>ТоварыУпаковкаРасширеннаяПодсказка</name>
               <id>639</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -5947,7 +5953,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТоварыНоменклатураЕдиницаИзмеренияExtendedTooltip</name>
+              <name>ТоварыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка</name>
               <id>640</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -5986,7 +5992,7 @@
             <value>Packaging unit, UOM</value>
           </title>
           <extendedTooltip>
-            <name>ТоварыУпаковкаЕдиницаИзмеренияExtendedTooltip</name>
+            <name>ТоварыУпаковкаЕдиницаИзмеренияРасширеннаяПодсказка</name>
             <id>638</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -6010,7 +6016,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТоварыВидЦеныExtendedTooltip</name>
+            <name>ТоварыВидЦеныРасширеннаяПодсказка</name>
             <id>641</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -6066,7 +6072,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТоварыЦенаExtendedTooltip</name>
+            <name>ТоварыЦенаРасширеннаяПодсказка</name>
             <id>642</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -6104,7 +6110,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТоварыСрокПоставкиExtendedTooltip</name>
+            <name>ТоварыСрокПоставкиРасширеннаяПодсказка</name>
             <id>643</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -6146,7 +6152,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТоварыДобавитьТоварыПоОтборуExtendedTooltip</name>
+              <name>ТоварыДобавитьТоварыПоОтборуРасширеннаяПодсказка</name>
               <id>632</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -6172,7 +6178,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ТоварыЗаполнитьВидЦенВыделенныхСтрокТоварыExtendedTooltip</name>
+              <name>ТоварыЗаполнитьВидЦенВыделенныхСтрокТоварыРасширеннаяПодсказка</name>
               <id>633</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -6264,7 +6270,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ТоварыExtendedTooltip</name>
+          <name>ТоварыРасширеннаяПодсказка</name>
           <id>634</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -6319,7 +6325,7 @@
         <value>Specify by goods</value>
       </toolTip>
       <extendedTooltip>
-        <name>СтраницаУточнениеПоТоварамExtendedTooltip</name>
+        <name>СтраницаУточнениеПоТоварамРасширеннаяПодсказка</name>
         <id>631</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -6644,7 +6650,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СкидкиНаценкиСкидкаНаценкаExtendedTooltip</name>
+            <name>СкидкиНаценкиСкидкаНаценкаРасширеннаяПодсказка</name>
             <id>896</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -6992,7 +6998,7 @@
         <value>Discounts (markups) applicable for selected terms</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСкидкиНаценкиExtendedTooltip</name>
+        <name>ГруппаСкидкиНаценкиРасширеннаяПодсказка</name>
         <id>848</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -7023,7 +7029,7 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <extendedTooltip>
-      <name>ГруппаСтраницыExtendedTooltip</name>
+      <name>ГруппаСтраницыРасширеннаяПодсказка</name>
       <id>565</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -7050,7 +7056,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСкопироватьExtendedTooltip</name>
+        <name>ФормаСкопироватьРасширеннаяПодсказка</name>
         <id>536</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -7075,7 +7081,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаУдалитьExtendedTooltip</name>
+        <name>ФормаУдалитьРасширеннаяПодсказка</name>
         <id>537</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -7100,7 +7106,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаУстановитьПометкуУдаленияExtendedTooltip</name>
+        <name>ФормаУстановитьПометкуУдаленияРасширеннаяПодсказка</name>
         <id>538</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -7251,7 +7257,7 @@
         <value>Form button group</value>
       </title>
       <extendedTooltip>
-        <name>ФормаГруппаКнопокExtendedTooltip</name>
+        <name>ФормаГруппаКнопокРасширеннаяПодсказка</name>
         <id>539</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -7289,7 +7295,7 @@
         <value>Additional filling commands</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка</name>
+        <name>ПодменюЗаполнитьРасширеннаяПодсказка</name>
         <id>915</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -7502,4 +7508,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

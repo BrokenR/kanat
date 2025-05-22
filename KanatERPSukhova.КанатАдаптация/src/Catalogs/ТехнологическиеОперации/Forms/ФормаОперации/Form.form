@@ -1717,6 +1717,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ВспомогательныеРабочиеЦентры.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ВспомогательныеРабочиеЦентрыНомерСтрокиРасширеннаяПодсказка</name>
             <id>283</id>
@@ -2088,4 +2091,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d0531c15-f9a7-407c-bdff-d8402c72b96d" extendedConfigurationObject="83215cb0-88b1-4142-8d87-b3ffeff2a138">
+  <producedTypes>
+    <selectionType typeId="6f453b08-2637-4234-8beb-a50e0b2cb49e" valueTypeId="93001043-29f6-474e-97cc-cd55dc1a5b7d"/>
+    <listType typeId="cdceceef-c355-4c3d-a0f7-64e96c2d2a21" valueTypeId="1fc17b8d-2720-4d52-ab86-a323b98a9d0c"/>
+    <managerType typeId="42dde2a1-7fe4-4b64-8982-9f64b46665dc" valueTypeId="ed3198da-ec05-47a9-8bf0-6384ad2afe74"/>
+    <recordSetType typeId="0f376116-d0f1-471e-ac4c-e8f665205f34" valueTypeId="cc0588fe-b9b4-4f32-a598-ad7d94557733"/>
+    <recordKeyType typeId="ebf46389-7afe-4a66-af51-70c15bac8ad9" valueTypeId="a7eeffda-39f2-4125-b235-e27a2e02587d"/>
+    <recordType typeId="2444c7a3-160c-41ee-a66f-a243cdaa4ed0" valueTypeId="6be4fd2a-f1c4-4b1e-a510-7ffbbf69fb8f"/>
+  </producedTypes>
+  <name>УдалитьЗаказыКлиентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="dd4239d2-fdda-4370-8543-a99631e30c36" extendedConfigurationObject="e55e672e-8c3f-49d2-b98c-8276f9a7e69e">
+    <name>КОформлению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="57244f82-5b08-4264-a9c1-58a9145b9469" extendedConfigurationObject="1a95e6a2-8f14-4c13-ae8a-d9c1e573586c">
+    <name>ЗаказКлиента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПереработчику</type>
+        </types>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="3dd405d0-d037-4955-8847-914be1259a65" extendedConfigurationObject="7250ed1e-9ce3-41fa-9974-5e74892dbf15">
+    <name>КодСтроки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>

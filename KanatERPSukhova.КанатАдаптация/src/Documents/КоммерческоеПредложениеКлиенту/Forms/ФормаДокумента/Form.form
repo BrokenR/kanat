@@ -719,7 +719,7 @@
                 <value>Prices</value>
               </toolTip>
               <extendedTooltip>
-                <name>ГруппаТоварыЗаполнитьЦеныExtendedTooltip</name>
+                <name>ГруппаТоварыЗаполнитьЦеныРасширеннаяПодсказка</name>
                 <id>305</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -768,7 +768,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыНазначитьАвтоматическиеСкидкиExtendedTooltip</name>
+                  <name>ТоварыНазначитьАвтоматическиеСкидкиРасширеннаяПодсказка</name>
                   <id>315</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -793,7 +793,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыНазначитьРучнуюСкидкуExtendedTooltip</name>
+                  <name>ТоварыНазначитьРучнуюСкидкуРасширеннаяПодсказка</name>
                   <id>317</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -818,7 +818,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ТоварыОтменитьРучныеСкидкиExtendedTooltip</name>
+                  <name>ТоварыОтменитьРучныеСкидкиРасширеннаяПодсказка</name>
                   <id>321</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -846,7 +846,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ТоварыОткрытьИнформациюОСкидкахExtendedTooltip</name>
+                    <name>ТоварыОткрытьИнформациюОСкидкахРасширеннаяПодсказка</name>
                     <id>325</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -876,7 +876,7 @@
                   <value>Goods information on discounts</value>
                 </title>
                 <extendedTooltip>
-                  <name>ГруппаТоварыИнформацияОСкидкахExtendedTooltip</name>
+                  <name>ГруппаТоварыИнформацияОСкидкахРасширеннаяПодсказка</name>
                   <id>323</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -901,7 +901,7 @@
                 <value>Discounts (markups)</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаТоварыСкидкиНаценкиExtendedTooltip</name>
+                <name>ГруппаТоварыСкидкиНаценкиРасширеннаяПодсказка</name>
                 <id>311</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1497,6 +1497,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНомерСтрокиРасширеннаяПодсказка</name>
             <id>56</id>
@@ -2630,6 +2633,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Items.Товары.CurrentData.КомментарийДляПокупателя</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ТоварыКомментарийДляПокупателяПодвалРасширеннаяПодсказка</name>
               <id>142</id>
@@ -2686,6 +2692,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Items.Товары.CurrentData.КомментарийВнутренний</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ТоварыКомментарийВнутреннийПодвалРасширеннаяПодсказка</name>
               <id>145</id>
@@ -3724,7 +3733,7 @@
           <value>Formatted document command bar</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаКоманднаяПанельФорматированногоДокументаExtendedTooltip</name>
+          <name>ГруппаКоманднаяПанельФорматированногоДокументаРасширеннаяПодсказка</name>
           <id>251</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -4665,7 +4674,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СуммаНДСExtendedTooltip</name>
+              <name>СуммаНДСРасширеннаяПодсказка</name>
               <id>198</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4718,7 +4727,7 @@
             <value>Page including VAT</value>
           </title>
           <extendedTooltip>
-            <name>СтраницаСНДСExtendedTooltip</name>
+            <name>СтраницаСНДСРасширеннаяПодсказка</name>
             <id>195</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -4753,7 +4762,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПолеБезНДСExtendedTooltip</name>
+              <name>ПолеБезНДСРасширеннаяПодсказка</name>
               <id>203</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4808,7 +4817,7 @@
           </title>
           <verticalStretch>true</verticalStretch>
           <extendedTooltip>
-            <name>СтраницаБезНДСExtendedTooltip</name>
+            <name>СтраницаБезНДСРасширеннаяПодсказка</name>
             <id>200</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -4836,7 +4845,7 @@
           <value>Pages VAT</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСтраницыНДСExtendedTooltip</name>
+          <name>ГруппаСтраницыНДСРасширеннаяПодсказка</name>
           <id>193</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -5372,4 +5381,7 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:DocumentFormExtInfo">
+    <repostOnWrite>true</repostOnWrite>
+  </extInfo>
 </form:Form>

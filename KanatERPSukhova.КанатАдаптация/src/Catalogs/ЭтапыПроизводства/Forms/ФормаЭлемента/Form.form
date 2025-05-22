@@ -2918,6 +2918,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.УслугиПереработчика.LineNumber</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>УслугиПереработчикаНомерСтрокиРасширеннаяПодсказка</name>
                 <id>607</id>
@@ -3515,4 +3518,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

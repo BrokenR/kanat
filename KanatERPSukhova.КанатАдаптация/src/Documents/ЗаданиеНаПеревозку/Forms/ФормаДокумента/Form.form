@@ -3443,6 +3443,9 @@ reg. plate</value>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Маршрут.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>МаршрутНомерСтрокиРасширеннаяПодсказка</name>
             <id>1366</id>
@@ -5054,10 +5057,6 @@ reg. plate</value>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
-    <handlers xsi:type="form:EventHandlerExtension">
-      <event>BeforeWriteAtServer</event>
-      <name>КАНАТ_ПередЗаписьюНаСервереПеред</name>
-    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

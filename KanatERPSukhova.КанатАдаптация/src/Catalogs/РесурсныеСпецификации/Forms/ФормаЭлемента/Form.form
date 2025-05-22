@@ -1431,6 +1431,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.ВыходныеИзделия.LineNumber</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>ПродукцияНомерСтрокиРасширеннаяПодсказка</name>
                 <id>1479</id>
@@ -3926,6 +3929,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.ВыходныеИзделия.LineNumber</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ВыходныеИзделияНомерСтрокиРасширеннаяПодсказка</name>
               <id>592</id>
@@ -5341,6 +5347,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.ВозвратныеОтходы.LineNumber</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ВозвратныеОтходыНомерСтрокиРасширеннаяПодсказка</name>
               <id>903</id>
@@ -6654,6 +6663,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.МатериалыИУслуги.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>МатериалыИУслугиНомерСтрокиРасширеннаяПодсказка</name>
             <id>612</id>
@@ -8237,6 +8249,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Трудозатраты.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТрудозатратыНомерСтрокиРасширеннаяПодсказка</name>
             <id>634</id>
@@ -12888,6 +12903,9 @@
                       <userVisible>
                         <common>true</common>
                       </userVisible>
+                      <dataPath xsi:type="form:DataPath">
+                        <segments>ПроизводственныйПроцессЭтап.УслугиПереработчика.LineNumber</segments>
+                      </dataPath>
                       <extendedTooltip>
                         <name>ЭтапУслугиПереработчикаНомерСтрокиРасширеннаяПодсказка</name>
                         <id>2590</id>
@@ -14944,6 +14962,9 @@
                           <userVisible>
                             <common>true</common>
                           </userVisible>
+                          <dataPath xsi:type="form:DataPath">
+                            <segments>ПроизводственныйПроцессОперация.ВспомогательныеРабочиеЦентры.LineNumber</segments>
+                          </dataPath>
                           <extendedTooltip>
                             <name>ОперацияВспомогательныеРабочиеЦентрыНомерСтрокиРасширеннаяПодсказка</name>
                             <id>2078</id>

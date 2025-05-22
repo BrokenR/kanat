@@ -10,7 +10,7 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <managerModule>Extended</managerModule>
   </extension>
-  <templates uuid="85c02892-bb8d-4291-82e6-e16ff1a0b1a7">
+  <templates uuid="3391eb85-9a77-46ea-b8a8-ad3745d4fb7e">
     <name>КАНАТ_ПФ_СчетНаОплату</name>
     <synonym>
       <key>ru</key>

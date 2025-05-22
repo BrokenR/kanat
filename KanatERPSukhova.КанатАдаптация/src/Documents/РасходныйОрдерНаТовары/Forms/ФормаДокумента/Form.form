@@ -1046,6 +1046,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ТоварыПоРаспоряжениям.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыПоРаспоряжениямНомерСтрокиРасширеннаяПодсказка</name>
             <id>341</id>
@@ -1878,6 +1881,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ОтгружаемыеТовары.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ОтгружаемыеТоварыНомерСтрокиРасширеннаяПодсказка</name>
             <id>386</id>
@@ -4364,4 +4370,7 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:DocumentFormExtInfo">
+    <repostOnWrite>true</repostOnWrite>
+  </extInfo>
 </form:Form>

@@ -1353,7 +1353,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДокументОснованиеExtendedTooltip</name>
+          <name>ДокументОснованиеРасширеннаяПодсказка</name>
           <id>262</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1396,7 +1396,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НомерExtendedTooltip</name>
+                <name>НомерРасширеннаяПодсказка</name>
                 <id>232</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1441,7 +1441,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ДатаExtendedTooltip</name>
+                <name>ДатаРасширеннаяПодсказка</name>
                 <id>235</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1483,7 +1483,7 @@
               <value>Number date</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаНомерДатаExtendedTooltip</name>
+              <name>ГруппаНомерДатаРасширеннаяПодсказка</name>
               <id>229</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1509,7 +1509,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрганизацияExtendedTooltip</name>
+              <name>ОрганизацияРасширеннаяПодсказка</name>
               <id>246</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1547,7 +1547,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ПодразделениеExtendedTooltip</name>
+              <name>ПодразделениеРасширеннаяПодсказка</name>
               <id>238</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1923,7 +1923,7 @@
         </userVisible>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>259</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2008,6 +2008,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Продукция.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ПродукцияНомерСтрокиРасширеннаяПодсказка</name>
             <id>170</id>
@@ -3102,7 +3105,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ПродукцияСкопироватьСтрокиExtendedTooltip</name>
+                <name>ПродукцияСкопироватьСтрокиРасширеннаяПодсказка</name>
                 <id>280</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3127,7 +3130,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ПродукцияВставитьСтрокиExtendedTooltip</name>
+                <name>ПродукцияВставитьСтрокиРасширеннаяПодсказка</name>
                 <id>282</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3391,7 +3394,7 @@
                 <value>BOM</value>
               </title>
               <extendedTooltip>
-                <name>ПродукцияПодменюСпецификацияExtendedTooltip</name>
+                <name>ПродукцияПодменюСпецификацияРасширеннаяПодсказка</name>
                 <id>335</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3751,7 +3754,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПродукцияКонтекстноеМенюСкопироватьСтрокиExtendedTooltip</name>
+              <name>ПродукцияКонтекстноеМенюСкопироватьСтрокиРасширеннаяПодсказка</name>
               <id>376</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3776,7 +3779,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПродукцияКонтекстноеМенюВставитьСтрокиExtendedTooltip</name>
+              <name>ПродукцияКонтекстноеМенюВставитьСтрокиРасширеннаяПодсказка</name>
               <id>378</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4959,7 +4962,7 @@ to products</value>
         <value>Autofill commands</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка</name>
+        <name>ПодменюЗаполнитьРасширеннаяПодсказка</name>
         <id>75</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -5215,4 +5218,7 @@ to products</value>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:DocumentFormExtInfo">
+    <repostOnWrite>true</repostOnWrite>
+  </extInfo>
 </form:Form>

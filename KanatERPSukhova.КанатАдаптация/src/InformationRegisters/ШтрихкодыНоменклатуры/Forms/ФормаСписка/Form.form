@@ -16,9 +16,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Список</segments>
-    </dataPath>
     <defaultItem>true</defaultItem>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
@@ -38,9 +35,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Штрихкод</segments>
-      </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
         <name>ШтрихкодРасширеннаяПодсказка</name>
@@ -83,9 +77,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Номенклатура</segments>
-      </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
         <name>НоменклатураРасширеннаяПодсказка</name>
@@ -168,9 +159,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Характеристика</segments>
-      </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
         <name>ХарактеристикаРасширеннаяПодсказка</name>
@@ -216,9 +204,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Список.Упаковка</segments>
-        </dataPath>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
           <name>УпаковкаРасширеннаяПодсказка</name>
@@ -252,9 +237,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Список.Номенклатура.ЕдиницаИзмерения</segments>
-        </dataPath>
         <extendedTooltip>
           <name>НоменклатураЕдиницаИзмеренияРасширеннаяПодсказка</name>
           <id>28</id>

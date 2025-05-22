@@ -565,12 +565,12 @@
                 <common>true</common>
               </userVisible>
               <title>
-                <key>en</key>
-                <value>TIN</value>
-              </title>
-              <title>
                 <key>ru</key>
                 <value>ИНН</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>TIN</value>
               </title>
               <extendedTooltip>
                 <name>Группа1РасширеннаяПодсказка</name>
@@ -2950,12 +2950,12 @@
           <common>true</common>
         </userVisible>
         <title>
-          <key>en</key>
-          <value>Localization VAT at rates 4 and 2</value>
-        </title>
-        <title>
           <key>ru</key>
           <value>Локализация НДС по ставкам 4и 2</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Localization VAT at rates 4 and 2</value>
         </title>
         <extendedTooltip>
           <name>ЛокализацияНДСПоСтавкам4и2РасширеннаяПодсказка</name>
@@ -3103,14 +3103,14 @@
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Электронный (sms)</value>
+                  <value>Бумажный чек</value>
                 </presentation>
                 <presentation>
                   <key>en</key>
-                  <value>Electronic receipt (text message)</value>
+                  <value>Printed receipt</value>
                 </presentation>
                 <value xsi:type="core:ReferenceValue">
-                  <value>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю.EnumValue.ОтправитьSMS</value>
+                  <value>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю.EnumValue.НеОтправлять</value>
                 </value>
               </choiceList>
               <choiceList>
@@ -3129,14 +3129,14 @@
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Бумажный чек</value>
+                  <value>Электронный (sms)</value>
                 </presentation>
                 <presentation>
                   <key>en</key>
-                  <value>Printed receipt</value>
+                  <value>Electronic receipt (text message)</value>
                 </presentation>
                 <value xsi:type="core:ReferenceValue">
-                  <value>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю.EnumValue.НеОтправлять</value>
+                  <value>Enum.ВариантыОтправкиЭлектронногоЧекаПокупателю.EnumValue.ОтправитьSMS</value>
                 </value>
               </choiceList>
             </extInfo>
@@ -4850,4 +4850,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

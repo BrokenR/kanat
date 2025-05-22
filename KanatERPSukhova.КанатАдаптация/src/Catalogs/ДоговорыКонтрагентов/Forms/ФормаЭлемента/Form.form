@@ -1457,12 +1457,12 @@
               <common>true</common>
             </userVisible>
             <title>
-              <key>en</key>
-              <value>Localization SPARK group</value>
-            </title>
-            <title>
               <key>ru</key>
               <value>Локализация группа СПАРК</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Localization SPARK group</value>
             </title>
             <extendedTooltip>
               <name>ЛокализацияГруппаСПАРКРасширеннаяПодсказка</name>
@@ -1883,12 +1883,12 @@
           <common>true</common>
         </userVisible>
         <title>
-          <key>en</key>
-          <value>Localization SDO details</value>
-        </title>
-        <title>
           <key>ru</key>
           <value>Локализация реквизиты ГОЗ</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Localization SDO details</value>
         </title>
         <extendedTooltip>
           <name>ЛокализацияРеквизитыГОЗРасширеннаяПодсказка</name>
@@ -4414,12 +4414,12 @@
               <common>true</common>
             </userVisible>
             <title>
-              <key>en</key>
-              <value>Localization agency agreement kind</value>
-            </title>
-            <title>
               <key>ru</key>
               <value>Локализация вид агентского договора</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Localization agency agreement kind</value>
             </title>
             <enableContentChange>true</enableContentChange>
             <extendedTooltip>
@@ -4859,19 +4859,6 @@
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Выбывает из оборота по причине использования покупателем для собственных нужд</value>
-                </presentation>
-                <presentation>
-                  <key>en</key>
-                  <value>It is removed from turnover because it is in customer's personal use</value>
-                </presentation>
-                <value xsi:type="core:ReferenceValue">
-                  <value>Enum.ВариантыВыбытияМаркируемойПродукции.EnumValue.ИспользованиеПокупателемДляСобственныхНужд</value>
-                </value>
-              </choiceList>
-              <choiceList>
-                <presentation>
-                  <key>ru</key>
                   <value>Не выбывает из оборота</value>
                 </presentation>
                 <presentation>
@@ -4880,6 +4867,19 @@
                 </presentation>
                 <value xsi:type="core:ReferenceValue">
                   <value>Enum.ВариантыВыбытияМаркируемойПродукции.EmptyRef</value>
+                </value>
+              </choiceList>
+              <choiceList>
+                <presentation>
+                  <key>ru</key>
+                  <value>Выбывает из оборота по причине использования покупателем для собственных нужд</value>
+                </presentation>
+                <presentation>
+                  <key>en</key>
+                  <value>It is removed from turnover because it is in customer's personal use</value>
+                </presentation>
+                <value xsi:type="core:ReferenceValue">
+                  <value>Enum.ВариантыВыбытияМаркируемойПродукции.EnumValue.ИспользованиеПокупателемДляСобственныхНужд</value>
                 </value>
               </choiceList>
             </extInfo>
@@ -5098,12 +5098,12 @@
               <common>true</common>
             </userVisible>
             <title>
-              <key>en</key>
-              <value>Unbilled inventory registration option</value>
-            </title>
-            <title>
               <key>ru</key>
               <value>Вариант оформления раздельной закупки</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Unbilled inventory registration option</value>
             </title>
             <extendedTooltip>
               <name>ГруппаВариантОформленияРаздельнойЗакупкиРасширеннаяПодсказка</name>
@@ -7506,6 +7506,9 @@ details</value>
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.НомерКартинкиПодписанЗашифрован</segments>
+              </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>СписокНомерКартинкиПодписанЗашифрованРасширеннаяПодсказка</name>
@@ -7564,6 +7567,9 @@ details</value>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Список.Наименование</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>СписокНаименованиеРасширеннаяПодсказка</name>
                   <id>1957</id>
@@ -7605,6 +7611,9 @@ details</value>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Список.Описание</segments>
+                </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
                   <name>СписокОписаниеРасширеннаяПодсказка</name>
@@ -7679,6 +7688,9 @@ details</value>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Список.ОтправленПолученЭД</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>ОтправленПолученЭДРасширеннаяПодсказка</name>
                   <id>2057</id>
@@ -7721,6 +7733,9 @@ details</value>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Список.ДатаИзменения</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>СписокДатаИзмененияРасширеннаяПодсказка</name>
                   <id>1963</id>
@@ -7762,6 +7777,9 @@ details</value>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Список.Отредактировал</segments>
+                </dataPath>
                 <extendedTooltip>
                   <name>СписокОтредактировалРасширеннаяПодсказка</name>
                   <id>1968</id>
@@ -7831,6 +7849,9 @@ details</value>
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.Размер</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>СписокРазмерРасширеннаяПодсказка</name>
                 <id>1971</id>
@@ -7872,6 +7893,9 @@ details</value>
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.Редактирует</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>СписокРедактируетРасширеннаяПодсказка</name>
                 <id>1974</id>
@@ -7913,6 +7937,9 @@ details</value>
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.ДатаСоздания</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>СписокДатаСозданияРасширеннаяПодсказка</name>
                 <id>1977</id>
@@ -7951,6 +7978,9 @@ details</value>
               </title>
               <enabled>true</enabled>
               <userVisible/>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.Ссылка</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>СписокСсылкаРасширеннаяПодсказка</name>
                 <id>1983</id>
@@ -7992,6 +8022,9 @@ details</value>
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Список.Автор</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>СписокАвторРасширеннаяПодсказка</name>
                 <id>1980</id>
@@ -10828,6 +10861,9 @@ details</value>
             <enableStartDrag>true</enableStartDrag>
             <enableDrag>true</enableDrag>
             <fileDragMode>AsFileRef</fileDragMode>
+            <rowPictureDataPath xsi:type="form:DataPath">
+              <segments>Список.ИндексКартинки</segments>
+            </rowPictureDataPath>
             <rowsPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.КоллекцияПиктограммФайлов</picture>
             </rowsPicture>

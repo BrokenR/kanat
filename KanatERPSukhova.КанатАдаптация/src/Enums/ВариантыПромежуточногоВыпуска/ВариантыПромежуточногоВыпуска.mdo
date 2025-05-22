@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1ce13aa8-058f-430d-b62d-2866594335ab" extendedConfigurationObject="c6fb9e8e-71e0-43e6-b7dc-0bdbba1b4ab9">
+  <producedTypes>
+    <refType typeId="c358dec9-c9f1-42a3-8510-864a41d2791b" valueTypeId="0b6d66a0-9c8d-446c-a60d-757590cd1efd"/>
+    <listType typeId="026c8fa6-9a85-4bf9-aab8-f331c6408f12" valueTypeId="5a47f74a-4109-4a8c-8ff8-938e3d069fab"/>
+    <managerType typeId="46e75970-1912-4ed1-9e82-8fa3fc2e3b94" valueTypeId="a33ade4d-2d60-4f87-9151-69a66507791f"/>
+  </producedTypes>
+  <name>ВариантыПромежуточногоВыпуска</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="e510cac1-3e24-4bf1-b08f-acd2261b3c2b" extendedConfigurationObject="75d7e1f0-88a0-48a7-8935-0e920245317e">
+    <name>ТоварДругогоКачества</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="69e97a9b-ed66-4467-8cb2-30f87450fbc1" extendedConfigurationObject="f2c4be3e-d98d-425d-ab81-b09d41b12b37">
+    <name>НастраиваетсяВручную</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

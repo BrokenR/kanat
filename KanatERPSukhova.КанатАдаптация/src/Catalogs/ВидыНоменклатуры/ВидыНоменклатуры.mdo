@@ -39,4 +39,14 @@
       <form>Extended</form>
     </extension>
   </forms>
+  <forms uuid="b50aa383-5a7e-498d-8159-c91a9ff5f82a">
+    <name>КАНАТ_ОБъектБылИзменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебный признак изменения</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

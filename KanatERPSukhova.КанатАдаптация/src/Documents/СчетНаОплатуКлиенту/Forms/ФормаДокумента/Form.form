@@ -874,6 +874,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЭтапыГрафикаОплаты.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ЭтапыГрафикаОплатыНомерСтрокиExtendedTooltip</name>
             <id>153</id>
@@ -2795,4 +2798,7 @@ notes</value>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:DocumentFormExtInfo">
+    <repostOnWrite>true</repostOnWrite>
+  </extInfo>
 </form:Form>

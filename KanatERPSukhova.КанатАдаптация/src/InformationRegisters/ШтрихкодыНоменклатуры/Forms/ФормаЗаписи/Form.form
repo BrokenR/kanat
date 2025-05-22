@@ -8,9 +8,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.Штрихкод</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ШтрихкодРасширеннаяПодсказка</name>
       <id>12</id>
@@ -47,9 +44,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.Номенклатура</segments>
-    </dataPath>
     <extendedTooltip>
       <name>НоменклатураРасширеннаяПодсказка</name>
       <id>13</id>
@@ -131,9 +125,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.Характеристика</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ХарактеристикаРасширеннаяПодсказка</name>
       <id>15</id>
@@ -178,9 +169,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Запись.Упаковка</segments>
-    </dataPath>
     <titleHeight>1</titleHeight>
     <extendedTooltip>
       <name>УпаковкаРасширеннаяПодсказка</name>
@@ -207,6 +195,13 @@
       <autoMaxHeight>true</autoMaxHeight>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
+      <choiceForm>Catalog.УпаковкиЕдиницыИзмерения.Form.ФормаВыбораИзДокументов</choiceForm>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <datapath xsi:type="form:DataPath">
+          <segments>Запись.Номенклатура</segments>
+        </datapath>
+      </choiceParameterLinks>
     </extInfo>
   </items>
   <autoCommandBar>

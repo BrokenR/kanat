@@ -10,18 +10,18 @@
     <value>КАНАТ печать пропуск на въезд выезд</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <templates uuid="9ce89c12-b2dc-42f2-a0fb-15c45c73b2c0">
-    <name>ПФ_MXL_ПечатьПропускНаВъезд</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пропуск на въезд</value>
-    </synonym>
-  </templates>
   <templates uuid="bb0c87f0-27e9-4591-b2c8-eb92d7f2c005">
     <name>ПФ_MXL_ПечатьПропускНаВыезд</name>
     <synonym>
       <key>ru</key>
       <value>П ф MXL печать пропуск на выезд</value>
+    </synonym>
+  </templates>
+  <templates uuid="4ed3cad9-70d9-4f00-aa04-b6718718afbc">
+    <name>ПФ_MXL_ПечатьПропускНаВъезд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропуск на въезд</value>
     </synonym>
   </templates>
 </mdclass:DataProcessor>
